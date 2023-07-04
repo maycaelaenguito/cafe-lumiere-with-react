@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    height: 12vh;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.171);
+}
+.navbar img{
+    width: 100px;
+    flex-shrink: 0;
+}
+.hamburger-toggle{
+    color: #42180A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
