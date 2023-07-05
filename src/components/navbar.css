@@ -7,12 +7,17 @@
     display: flex;
     justify-content: space-between;
     padding: 0 1rem;
-    height: 12vh;
+    height: 10vh;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.171);
+    z-index: 9999;
 }
 .navbar img{
     width: 100px;
-    flex-shrink: 0;
+}
+.logo-cnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hamburger-toggle{
     color: #42180A;
@@ -20,4 +25,35 @@
     justify-content: center;
     align-items: center;
 }
-
+.nav-menu{
+    text-transform: uppercase;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.nav-menu li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 1rem;
+    color: rgba(35, 13, 6, 0.65);
+    font-size: 15px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    letter-spacing: -1.125px;
+}
+@media (min-width: 768px) {
+    .hamburger-toggle{
+        display: none;
+    }
+    .navbar{
+        padding: 0 4rem;
+    }
+}
+@media (max-width: 767px){
+    .nav-menu{
+        display: none;
+    }
+}
