@@ -1,5 +1,8 @@
 import React from 'react';
 import './bgslideshow.css';
+import Navbar from './Navbar';
+import { Link } from 'react-router-dom';
+
 
 const BgSlideshow = () => {
   return (
@@ -8,6 +11,9 @@ const BgSlideshow = () => {
         <div className="header-bg">
         </div> 
         {/* HEADER CONTENT/separate the bg-image and the content to make the filter take effect specifically on the bg-image only */}
+        <div className="nav">
+        <Navbar/>
+        </div>
         <div className="header-content">
             <div className='st-top'>
                 <p>Savor the perfect blend</p>
@@ -16,11 +22,19 @@ const BgSlideshow = () => {
                 <p>Elevating Coffee Moments with Vintage Flair</p>
             </div>
             <div className='header-btn'>
-                <div>
-                    <button><p>See Full Menu</p></button>
+                <div className='menu'>
+                   <Link to="/about/menu">
+                    <button>
+                        See Full Menu
+                    </button>
+                    </Link>
                 </div>
-                <div>
-                    <button><p>Book A Table</p></button>
+                <div className='booking'>
+                    <Link to="/contactus/booking">
+                    <button>
+                        Book A Table
+                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

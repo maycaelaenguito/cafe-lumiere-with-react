@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Logo from '../assets/Cafe Lumiere Logo (1).png';
+import { Link } from 'react-router-dom';
+import Logo from '../assets/Cafe Lumiere Logo.png';
 import './navbar.css';
 import { Squash as Hamburger } from 'hamburger-react';
 
@@ -24,10 +25,18 @@ const Navbar = () => {
       {/* Navigation Menu */}
       <div className='nav-menu'>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Blogs</li>
-          <li>Contact Us</li>
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          <Link to="/about">
+            <li>About</li>
+          </Link>
+          <Link to="/blogs">
+            <li>Blogs</li> 
+          </Link>
+          <Link to="/contactus">
+            <li>Contact Us</li>
+          </Link>
         </ul>
       </div>
 
