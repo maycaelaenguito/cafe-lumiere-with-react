@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hgrid-container{
+    display: grid;
+    grid-template-areas: 
+    "htitle"
+    "fimage"
+    "hdescription";
+    margin-top: 2rem;
+}
+.f-img{
+    grid-area: fimage;
+    display: flex;
+    justify-content: center;
+}
+
+.hgrid-title{
+    grid-area: htitle;
+    text-align: center;
+    font-family: 'Bonheur Royale', cursive;
+    color: #532300;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.hgrid-description{
+    text-align: center;
+    grid-area: hdescription;
+    margin-top: 2rem;
+    font-family: 'Baskerville', sans-serif;
+}
+.f-img img{
+    width: 80%;
+
+}
+
+@media (min-width: 768px) {
+    .hgrid-container{
+        display: grid;
+        grid-template-areas: 
+        "fimage htitle"
+        "fimage hdescription"
+        "fimage hdescription"
+        "fimage hdescription";
+        justify-content: center;
+    }
+    .f-img{
+        width: 500px;
+    }
+    .hgrid-description{
+        text-align: left;
+        width: 40vw;
+        margin-left: 2rem;
+        margin-top: 0;
+    }
+    .hgrid-title h1{
+        width: auto;
+    }
+
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import BgSlideshow from './BgSlideshow';
+import Header from './Header';
 
 
 
@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
 
-    <BgSlideshow/>
+    <Header/>
     </div>
   )
 }
