@@ -10,11 +10,11 @@
 }
 .slide-container{
     width: 100%;
-    height: 90vh;
+    height: 80vh;
 }
 .header-bg{
     width: 100%;
-    height: 100%;
+    height: 80vh;
     overflow: hidden;
     position: relative;
     background-image: url(../assets/9.png);
@@ -66,9 +66,10 @@
 }
 .header-content{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 80%;
 }
 
 /*HEADER CONTENT*/
@@ -95,7 +96,6 @@
     display: flex;
     justify-content: center;
   }
-  
   .header-btn a {
     border: 1px solid #fff;
     width: 140px;
@@ -158,20 +158,19 @@
     .st-top p{
         font-size: 5vw;
     }
-    .header-btn button{
-        font-size: 3.5vw;
-    }
-    .header-btn a{
-        height: 25px;
-        width: 100px;
-    }
     .st-middle p{
         font-size: 12vw;
     }
-    .slide-container{
-        height: 70vh;
+}
+
+@media (max-width: 768px){
+    .header-content .booking{
+        display: none;
     }
-    .header-content{
-        top: 40%;
+    .header-content .menu{
+        margin-top: 3rem;
+    }
+    .header-content .st-middle{
+        margin-top: 3rem;
     }
 }
