@@ -8,16 +8,16 @@ const Header = () => {
     <div className='header-container'>
        <BgSlideshow/>
        <div className="header-section">
-        <div className="hgrid-container">
-            <div className="f-img">
+        <div className="header-grid-container">
+            <div className="header-grid-image">
              <img src={BrownCoffee} alt="Brown Coffee"/>
             </div>
-            <div className='hgrid-title'>
-              <h1>All your favorites found in one</h1>
+            <div className='header-grid-title'>
+              <h1>Exquisite Cuisine</h1>
             </div>
-            <div className="hgrid-description">
-              <h2>Journey to a bygone era of elegance at Cafe Lumiere, a retro-themed haven where timeless charm meets refined indulgence.</h2>
-              <p>Nestled within the heart of the city, Cafe Lumiere beckons visitors with its tranquil ambiance. Sun-kissed walls adorned with captivating artwork, the scent of freshly brewed coffee filling the air, and cozy corners that invite quiet contemplation, this haven promises moments of respite and inspiration.</p>
+            <div className="header-grid-description">
+              <h3>Journey to a bygone era of elegance at Cafe Lumiere, a retro-themed haven where timeless charm meets refined indulgence.</h3>
+              <p className='sub-description'>Nestled within the heart of the city, Cafe Lumiere beckons visitors with its tranquil ambiance. Sun-kissed walls adorned with captivating artwork, the scent of freshly brewed coffee filling the air, and cozy corners that invite quiet contemplation, this haven promises moments of respite and inspiration.</p>
               <p>Discover a picturesque retreat from the bustling city. Bathed in soft, natural light, the café's elegant interior boasts vibrant artwork, creating an immersive gallery-like experience.</p>
             </div>
         </div>

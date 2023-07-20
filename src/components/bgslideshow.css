@@ -31,37 +31,40 @@
     {
         background-image: url(../assets/1\(1\).png);
     }
-    12%
+    10%
     {
         background-image: url(../assets/2\(1\).png);
     }
-    24%
+    20%
     {
         background-image: url(../assets/3\(1\).png);
     }
-    36%
+    30%
     {
         background-image: url(../assets/4.png);
     }
-    48%
+    40%
     {
         background-image: url(../assets/5.png);
     }
-    60%
+    50%
     {
         background-image: url(../assets/6.png);
     }
-    72%
+    60%
     {
         background-image: url(../assets/7.png);
     }
-    84%
+    70%
     {
         background-image: url(../assets/8.png);
     }
-    96%
+    80%
     {
         background-image: url(../assets/10.png);
+    }
+    90%{
+        background-image: url(../assets/1\(1\).png);
     }
 }
 .header-content{
@@ -69,7 +72,7 @@
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 90%;
 }
 
 /*HEADER CONTENT*/
@@ -82,13 +85,14 @@
 
 .header-btn button, .st-top p{
     text-transform: uppercase;
-    font-family: 'Barlow', sans-serif;
     color: #ffffff;
 }
 .st-top{
     font-style: normal;
     font-weight: 600;
     letter-spacing: -0.72px;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
 }
 
 .header-btn {
@@ -146,12 +150,14 @@
     border: none;
     width: 140px;
     height: 35px;
+    font-size: 14px;
+    font-family: 'Catamaran', sans-serif;
   }
   
 .st-middle p{
     font-family: 'Bonheur Royale', cursive;
     color: #fff;
-    font-size: 3rem;
+    font-size: 3.2rem;
 }
 
 @media (max-width: 350px) {
@@ -159,7 +165,7 @@
         font-size: 5vw;
     }
     .st-middle p{
-        font-size: 12vw;
+        font-size: 14vw;
     }
 }
 

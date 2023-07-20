@@ -4,62 +4,156 @@
     box-sizing: border-box;
 }
 
-.hgrid-container{
+.header-grid-container{
     display: grid;
     grid-template-areas: 
-    "htitle"
     "fimage"
+    "htitle"
     "hdescription";
 }
-.f-img{
+.header-grid-image{
     grid-area: fimage;
     display: flex;
     justify-content: center;
 }
 
-.hgrid-title{
+.header-grid-title{
     grid-area: htitle;
-    text-align: center;
     font-family: 'Bonheur Royale', cursive;
     color: #532300;
-    font-size: 17px;
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;
+    align-items: center;
+    margin-top: 1rem;
 }
-.hgrid-description{
-    text-align: center;
+.header-grid-title h1{
+    font-size: 45px;
+}
+.header-grid-description{
+    text-align: left;
     grid-area: hdescription;
-    margin-top: 2rem;
-    font-family: 'Baskerville', sans-serif;
+    margin: 1rem 0;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: .8px;
 }
-.f-img img{
+.header-grid-description h3{
+    font-weight: 500;
+    color: rgb(92, 92, 92);
+    font-size: 16px;
+}
+.header-grid-description p{
+    color: rgb(99, 99, 99);
+    font-size: 14px;
+}
+.header-grid-image img{
     width: 80%;
-
+    margin-top: 5rem;
 }
 
-@media (min-width: 768px) {
-    .hgrid-container{
+@media (max-width: 280px) {
+    .header-grid-title h1{
+        font-size: 15vw;
+    }
+    .header-grid-description h3{
+        font-size: 5vw;
+    }
+    .header-grid-description p{
+        font-size: 4vw;
+    }
+}
+@media (max-width: 628px){
+    .header-grid-container{
+        display: grid;
+        grid-template-areas: 
+        "htitle"
+        "fimage"
+        "hdescription";
+    }
+    .header-grid-image img{
+        margin-top: 0;
+    }
+    .header-grid-title{
+        margin: 1rem 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media (max-width: 991px) {
+    .header-grid-description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-grid-description h3{
+        width: 80%;
+    }
+    .header-grid-description p{
+        width: 80%;
+    }
+    .header-grid-title h1{
+        width: 80%;
+    }
+    .header-grid-description{
+        margin-top: 1rem;
+    }
+    .header-grid-description .sub-description{
+        margin-top: 1.5rem;
+    }
+}
+@media (min-width: 992px) {
+    .header-grid-container{
         display: grid;
         grid-template-areas: 
         "fimage htitle"
-        "fimage hdescription"
+        "fimage htitle"
         "fimage hdescription"
         "fimage hdescription";
         justify-content: center;
-        margin-top: 3rem;
+        padding: 3rem 2rem;
+        width: 100%;
+        grid-template-columns: 1fr 1fr; /* Adjust the column widths as needed */
     }
-    .f-img{
-        width: 500px;
+    .header-grid-image img{
+        max-width: 70%;
+        height: fit-content;
     }
-    .hgrid-description{
+    .header-grid-description{
         text-align: left;
-        width: 40vw;
-        margin-left: 2rem;
-        margin-top: 0;
+        width: 85%;
+        margin-bottom: 3rem;
     }
-    .hgrid-title h1{
-        width: auto;
+    .header-grid-description h3{
+        font-size: 17px;
+    }
+    .header-grid-description .sub-description{
+        margin-top: 1rem;
+    }
+    .header-grid-description p{
+        font-size: 14px;
+    }
+    .header-grid-title h1{
+        font-size: 60px;
+    }
+    .header-grid-title{
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        height: fit-content;
+        align-items: flex-end;
+        height: auto;
     }
 
+}
+@media (min-width: 1300px){
+    .header-grid-description p{
+        font-size: 17px;
+    }
+    .header-grid-title h1{
+        font-size: 70px;
+    }
+    .header-grid-description h3{
+        font-size: 21px;
+    }
 }
