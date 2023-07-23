@@ -10,11 +10,11 @@
 }
 .slide-container{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
 .header-bg{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     overflow: hidden;
     position: relative;
     background-image: url(../assets/9.png);
@@ -69,7 +69,7 @@
 }
 .header-content{
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
@@ -89,10 +89,11 @@
 }
 .st-top{
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: -0.72px;
     font-size: 20px;
     font-family: 'Barlow', sans-serif;
+    margin-top: 1rem;
 }
 
 .header-btn {
@@ -100,25 +101,27 @@
     display: flex;
     justify-content: center;
   }
-  .header-btn a {
-    border: 1px solid #fff;
+  .header-btn a{
     width: 140px;
     height: 35px;
-    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     cursor: pointer;
     text-decoration: none;
-    color: #fff;
     transition: 0.3s all;
     overflow: hidden;
     margin: 0 1rem;
     z-index: 2;
+    margin-top: 2rem;
+    color: #fff;
+    border-top: solid 1px #ffffff;
+    border-bottom: solid 1px #ffffff;
   }
-  
+
   .header-btn a:before {
+    border: 2px solid #ffffff;
     content: '';
     position: absolute;
     width: 0;
@@ -133,7 +136,7 @@
   
   .header-btn button:hover {
     z-index: 2;
-    font-weight: bold;
+    font-weight: 800;
     color: #42180ab2;
   }
   
@@ -145,13 +148,14 @@
   .header-btn button {
     background-color: transparent;
     cursor: pointer;
-    font-weight: 500;
-    letter-spacing: -0.36px;
+    font-weight: 600;
+    letter-spacing: 0.36px;
     border: none;
     width: 140px;
     height: 35px;
     font-size: 14px;
     font-family: 'Catamaran', sans-serif;
+    border: solid 1px #ffffff;
   }
   
 .st-middle p{
@@ -167,16 +171,66 @@
     .st-middle p{
         font-size: 14vw;
     }
-}
+    .header-btn a:before{
+        left: -10vw;
+    }
+    .header-btn a{
+        max-width: 135px;
+        height: 35px;
+        
+    }
+    .header-btn button{
+        max-width: 135px;
+        height: 35px;
+        font-size: 13px;
+    }
 
-@media (max-width: 768px){
+}
+@media (max-width: 567px) and (min-width: 351px) {
+    .st-middle p{
+        font-size: 55px;
+    }
+}
+@media (max-width: 669px){
     .header-content .booking{
         display: none;
     }
-    .header-content .menu{
-        margin-top: 3rem;
+    .st-top{
+        display: none;
     }
-    .header-content .st-middle{
-        margin-top: 3rem;
+}
+@media screen and (max-width: 991px)and (min-width: 568px){
+    .st-middle p{
+        font-size: 70px;
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .header-bg{
+        height: 100vh;
+    }
+    .slide-container{
+        height: 100vh;
+    }
+    .st-middle p{
+        font-size: 100px;
+        width: 80%;
+        margin-top: 6rem;
+    }
+    .st-top{
+        font-size: 25px;
+    }
+    .header-btn a{
+        width: 160px;
+        height: 43px;
+        margin-top: 4rem;
+    }
+    .header-btn button{
+        font-size: 15px;
+        width: 160px;
+        height: 60px;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
     }
 }

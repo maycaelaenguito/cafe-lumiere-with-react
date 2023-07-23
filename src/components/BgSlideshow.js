@@ -14,11 +14,11 @@ const BgSlideshow = () => {
         <Navbar/>
       </div>
       <div className="header-content">
-        <div className='st-top'>
-          <p>Savor the perfect blend</p>
-        </div>
         <div className='st-middle'>
           <p>Elevating Coffee Moments with Vintage Flair</p>
+        </div>
+        <div className='st-top'>
+          <p>Savor the perfect blend</p>
         </div>
         <div className='header-btn'>
           <div className='menu'>

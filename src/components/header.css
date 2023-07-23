@@ -10,6 +10,7 @@
     "fimage"
     "htitle"
     "hdescription";
+    margin-top: 4rem;
 }
 .header-grid-image{
     grid-area: fimage;
@@ -40,16 +41,80 @@
     font-weight: 500;
     color: rgb(92, 92, 92);
     font-size: 16px;
+    line-height: 2;
 }
 .header-grid-description p{
     color: rgb(99, 99, 99);
     font-size: 14px;
+    line-height: 1.5;
 }
 .header-grid-image img{
     width: 80%;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
+/* Menu Button */
+.menu-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  .menu-btn a{
+    width: 160px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s all;
+    overflow: hidden;
+    margin: 0 1rem;
+    z-index: 2;
+    margin-top: 2rem;
+  }
+
+  .menu-btn button {
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.56px;
+    width: 160px;
+    height: 45px;
+    font-size: 14px;
+    font-family: 'Catamaran', sans-serif;
+    border: solid 1px #532300;
+    text-transform: uppercase;
+    color: #532300;
+  }
+
+  .menu-btn a:before {
+    border: 2px solid #ffffff;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: -5vw;
+    background: #532300;
+    transition: .6s all;
+    z-index: -1;
+    transform: skew(45deg);
+  }
+  
+  .menu-btn button:hover {
+    z-index: 2;
+    font-weight: 800;
+    color: #fff;
+  }
+  
+  .menu-btn a:hover:before {
+    z-index: -1;
+    width: 180%;
+  }
+
+  
 @media (max-width: 280px) {
     .header-grid-title h1{
         font-size: 15vw;
@@ -60,6 +125,22 @@
     .header-grid-description p{
         font-size: 4vw;
     }
+}
+@media (max-width: 350px) {
+    .menu-btn a:before{
+        left: -10vw;
+    }
+    .menu-btn a{
+        max-width: 135px;
+        height: 35px;
+        
+    }
+    .menu-btn button{
+        max-width: 135px;
+        height: 35px;
+        font-size: 13px;
+    }
+
 }
 @media (max-width: 628px){
     .header-grid-container{
@@ -111,7 +192,7 @@
         "fimage hdescription"
         "fimage hdescription";
         justify-content: center;
-        padding: 3rem 2rem;
+        padding: 0 2rem;
         width: 100%;
         grid-template-columns: 1fr 1fr; /* Adjust the column widths as needed */
     }
