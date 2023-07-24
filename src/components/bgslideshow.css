@@ -90,9 +90,9 @@
 .st-top{
     font-style: normal;
     font-weight: 500;
-    letter-spacing: -0.72px;
+    letter-spacing: 0.72px;
     font-size: 20px;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Basekerville';
     margin-top: 1rem;
 }
 
@@ -108,7 +108,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    cursor: pointer;
     text-decoration: none;
     transition: 0.3s all;
     overflow: hidden;
@@ -156,6 +155,7 @@
     font-size: 14px;
     font-family: 'Catamaran', sans-serif;
     border: solid 1px #ffffff;
+    cursor: pointer;
   }
   
 .st-middle p{

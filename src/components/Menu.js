@@ -1,10 +1,11 @@
 import React from 'react';
 import './menu.css';
+import MenuComponent from './MenuComponent';
 
 const Menu = () => {
   return (
     <div className='menu'>
-     <h1>Menu</h1>
+      <MenuComponent/>
     </div>
   )
 }

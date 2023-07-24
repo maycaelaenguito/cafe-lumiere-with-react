@@ -24,14 +24,14 @@ const BgSlideshow = () => {
           <div className='menu'>
             <Link to="/about/menu">
               <button>
-                See Full Menu
+                Full Menu
               </button>
             </Link>
           </div>
           <div className='booking'>
             <Link to="/contactus/booking">
               <button>
-                Book A Table
+                Book Now
               </button>
             </Link>
           </div>

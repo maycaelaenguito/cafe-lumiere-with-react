@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-component{
+    margin-top: 3rem;
+    background: linear-gradient(135deg, #fdfcfb 0%, #dcc5b2 100%);;
+}
+
+.menu-container{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+}
+
+.menu-title{
+    font-family: 'Bonheur Royale', cursive;
+    color: #35170C;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-category{
+    display: grid;
+    grid-template-areas: 
+    "coffee"
+    "food"
+    "drinks"
+    "desserts";
+}
+
+.food-menu{
+    min-height: 35vh;
+    min-width: 70%;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+    color: #f0f0f0;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.coffee, .food, .drinks, .desserts{
+    background-blend-mode: darken;
+}
+
+.coffee{
+    background: rgba(0, 0, 0, 0.475) url(../assets/Coffee.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: coffee;
+}
+
+.food{
+    background: rgba(0, 0, 0, 0.475) url(../assets/Pasta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: food;
+}
+
+.drinks{
+    background: rgba(0, 0, 0, 0.475) url(../assets/Drinks\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: drinks;
+}
+
+.desserts{
+    background: rgba(0, 0, 0, 0.475) url(../assets/Dessert.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: desserts;
+}
+
+
+@media (min-width: 600px) {
+    .menu-category{
+        grid-template-areas: 
+        "coffee food"
+        "drinks desserts";
+        padding: 0 1.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .menu-category{
+        grid-template-areas: 
+        "coffee food drinks desserts";
+        padding: 0 2rem;
+    }
+}

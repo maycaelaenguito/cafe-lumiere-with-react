@@ -34,14 +34,14 @@
     text-align: left;
     grid-area: hdescription;
     margin: 1rem 0;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Basekerville';
     letter-spacing: .8px;
 }
 .header-grid-description h3{
     font-weight: 500;
-    color: rgb(92, 92, 92);
+    color: rgb(62, 62, 62);
     font-size: 16px;
-    line-height: 2;
+    line-height: 1.7;
 }
 .header-grid-description p{
     color: rgb(99, 99, 99);
@@ -114,7 +114,12 @@
     width: 180%;
   }
 
-  
+
+.open-hours .dash span{
+    height: 2rem;
+    width: 3rem;
+    background: url(../assets/10.png);
+}
 @media (max-width: 280px) {
     .header-grid-title h1{
         font-size: 15vw;
