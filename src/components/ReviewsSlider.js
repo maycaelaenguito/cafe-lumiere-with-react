@@ -1,72 +1,88 @@
 import React, { useState, useEffect } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the carousel styles
-import { Carousel } from "react-responsive-carousel";
-import './reviewslider.css';
+import "./reviewslider.css"; 
+import {BsChevronLeft} from 'react-icons/bs';
+import {BsChevronRight} from 'react-icons/bs';
 
-const reviewsData = [
+const reviews = [
   {
     id: 1,
-    name: "John Doe",
-    review: "This product is amazing! I love it!",
+    text: "Excellent coffee and comfy atmosphere. Will be back!",
+    author: "John D.",
   },
   {
     id: 2,
-    name: "Jane Smith",
-    review: "Highly recommended. Great quality and service.",
+    text: "Charming cafe with yummy pastries. Loved the cinnamon roll!",
+    author: "Emily S.",
   },
   {
     id: 3,
-    name: "Alex Johnson",
-    review: "Excellent product. Worth every penny.",
+    text: "Cozy spot for a quick bite. The avocado toast was fantastic!",
+    author: "Alex W.",
   },
+  {
+    id: 4,
+    text: "Great service and a variety of teas. A tea lover's paradise!",
+    author: "Sarah L.",
+  },
+  {
+    id: 5,
+    text: "Hearty brunch options and friendly staff. Try the pancakes!",
+    author: "Mike H.",
+  },
+  // Add more reviews here
 ];
 
-const ReviewsSlider = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
+const ReviewSlider = () => {
+  const [currentReview, setCurrentReview] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
 
-  // Function to handle automatic sliding
-  const handleAutoSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide + 1) % reviewsData.length);
+  useEffect(() => {
+    const sliderInterval = setInterval(() => {
+      if (!isPaused) {
+        setCurrentReview((prev) => (prev + 1) % reviews.length);
+      }
+    }, 3000); // Change the interval time as desired (5 seconds in this example)
+
+    return () => {
+      clearInterval(sliderInterval);
+    };
+  }, [isPaused]);
+
+  const handlePause = () => {
+    setIsPaused(!isPaused);
   };
 
-  // Start automatic sliding when component mounts
-  useEffect(() => {
-    const interval = setInterval(handleAutoSlide, 5000); // Slide every 5 seconds
-    return () => clearInterval(interval); // Clear interval on component unmount
-  }, []);
+  const handlePrev = () => {
+    setCurrentReview((prev) => (prev - 1 + reviews.length) % reviews.length);
+  };
 
-  // Function to handle button click
-  const handleButtonClick = (index) => {
-    setCurrentSlide(index);
+  const handleNext = () => {
+    setCurrentReview((prev) => (prev + 1) % reviews.length);
   };
 
   return (
-    <div>
-      <Carousel
-        selectedItem={currentSlide}
-        onChange={(index) => setCurrentSlide(index)}
-      >
-        {reviewsData.map((review) => (
-          <div key={review.id}>
-            <h2>{review.name}</h2>
-            <p>{review.review}</p>
+    <div className="slider-container" onMouseEnter={handlePause} onMouseLeave={handlePause}>
+        <div className="slide-control">
+          <div className="slide-control-icon" onClick={handlePrev}>
+            <BsChevronLeft size={40} className="slide-control-icon" />
           </div>
-        ))}
-      </Carousel>
-
-      <div className="buttons-container">
-        {reviewsData.map((review, index) => (
-          <button
-            key={review.id}
-            onClick={() => handleButtonClick(index)}
-            className={index === currentSlide ? "active" : ""}
-          >
-            {index + 1}
-          </button>
-        ))}
-      </div>
+          {reviews.map((review, index) => (
+            <div
+              key={review.id}
+              className={`slider-item ${index === currentReview ? "active" : ""}`}
+            >
+              <div className="review-holder">
+                <p className="review-text">{review.text}</p>
+                <p className="author">- {review.author}</p>
+              </div>
+            </div>
+          ))}
+          <div className="slide-control-icon" onClick={handleNext}>
+            <BsChevronRight size={40} className="slide-control-icon"/>
+          </div>
+        </div>
     </div>
   );
 };
 
-export default ReviewsSlider;
+export default ReviewSlider;

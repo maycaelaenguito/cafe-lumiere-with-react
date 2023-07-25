@@ -1,48 +1,46 @@
-.buttons-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  button {
-    border: none;
-    background-color: transparent;
-    color: #888;
-    font-size: 20px;
-    cursor: pointer;
-    margin: 0 5px;
-  }
-  
-  button.active {
-    color: #000;
-    font-weight: bold;
-  }
-  
-  .carousel .slider-wrapper {
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  .carousel .slider {
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .carousel .slide {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .carousel .control-dots {
-    bottom: 30px;
-  }
-  
-  .carousel .control-dots .dot {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  }
-  
-  .carousel .control-dots .dot.selected {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-  }
-  
+/* Add appropriate styling for the slider container and items */
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; /* Set your desired width */
+  margin: 0 auto;
+}
+
+.slider-item {
+  display: none;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.slider-item.active {
+  display: block;
+  opacity: 1;
+}
+
+.review-text {
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+.author {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.slide-control div{
+  cursor: pointer;
+}
+.slide-control{
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+
+
+@media (max-width: 600px){
+
+}
