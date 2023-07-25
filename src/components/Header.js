@@ -1,14 +1,11 @@
 import React from 'react';
 import './header.css';
-import BgSlideshow from './BgSlideshow';
 import BrownCoffee from '../assets/Coffee 1 (1).png';
-import MenuComponent from './MenuComponent';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <div className='header-container'>
-       <BgSlideshow/>
        <div className="header-section">
         <div className="header-grid-container">
             <div className="header-grid-image">
@@ -31,20 +28,7 @@ const Header = () => {
             </div>
         </div>
        </div>
-       <MenuComponent/>
-       <div className="open-hours">
-        <div>
-          <h1>Open Hours</h1>
-        </div>
-        <div>
-          <div>
-          <p>Monday - Friday</p>
-          <span className='dash'></span>
-          <p>10:00 am - 9:00 pm</p>
-          </div>
-          <p>Saturday - Sunday <span className='dash'></span>10:00 am - 11:00 pm</p>
-        </div>
-       </div>
+  
     </div>
   )
 }

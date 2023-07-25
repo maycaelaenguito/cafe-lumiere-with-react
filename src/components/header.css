@@ -114,12 +114,19 @@
     width: 180%;
   }
 
-
-.open-hours .dash span{
-    height: 2rem;
-    width: 3rem;
-    background: url(../assets/10.png);
+.open-hours div{
+    text-align: center;
 }
+
+.open-hours .dash::before{
+    content: ' '; /* Unicode character for em dash (—) */
+    display: inline-block;
+    width: 50px; /* Adjust the width to control the length of the dash */
+    height: 2px; /* Adjust the height to control the thickness of the dash */
+    background-color: #000; /* Change #000 to the desired color of the dash */
+    margin-bottom: 5px;
+}
+
 @media (max-width: 280px) {
     .header-grid-title h1{
         font-size: 15vw;
