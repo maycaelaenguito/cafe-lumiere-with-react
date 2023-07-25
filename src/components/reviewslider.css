@@ -1,0 +1,48 @@
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+    color: #888;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  button.active {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .carousel .slider-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .carousel .slider {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .carousel .slide {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel .control-dots {
+    bottom: 30px;
+  }
+  
+  .carousel .control-dots .dot {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .carousel .control-dots .dot.selected {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
