@@ -33,16 +33,18 @@ const Header = () => {
           <div className="space">
             
           </div>
-          <div>
-            <h1>Get that Coffee</h1>
-            <h2>Sit and Sip</h2>
-            <h3>Relax</h3>
-            <div className='landscape-btn'>
-              <Link to="/contactus/booking">
-                <button>
-                  Book Now
-                </button>
-              </Link>
+          <div className='landscape-text'>
+            <div>
+              <h1>Get that Coffee</h1>
+              <h2>Sit and Sip</h2>
+              <h3>Relax</h3>
+              <div className='landscape-btn'>
+                <Link to="/contactus/booking">
+                  <button>
+                    Book Now
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
