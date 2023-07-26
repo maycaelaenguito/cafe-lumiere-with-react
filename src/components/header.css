@@ -54,7 +54,7 @@
 }
 
 /* Menu Button */
-.menu-btn {
+.menu-btn, .landscape-btn{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -125,6 +125,81 @@
     background-color: #000; /* Change #000 to the desired color of the dash */
     margin-bottom: 5px;
 }
+
+.landscape-coffee{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690359779/coffee-gd301a0bef_1920_qelxvl.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transform: rotateY(180deg);
+}
+
+.landscape-coffee h1, .landscape-coffee h2, .landscape-coffee h3, .landscape-btn{
+    transform: rotateY(180deg);
+    color: #fff;
+}
+
+
+.landscape-btn a{
+    width: 160px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s all;
+    overflow: hidden;
+    margin: 0 1rem;
+    z-index: 2;
+    margin-top: 2rem;
+    box-shadow: inset 0 0 0px 1px #fdfdfd;
+    color: #fff;
+}
+
+.landscape-btn button{
+    background-color: transparent;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    width: 160px;
+    height: 48px;
+    font-size: 14px;
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.landscape-btn a:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: -5vw;
+    background: #ffffff;
+    transition: .6s all;
+    z-index: -1;
+    transform: skew(45deg);
+  }
+  
+  .landscape-btn button:hover {
+    z-index: 2;
+    font-weight: 800;
+    color: #532300;
+  }
+  
+  .landscape-btn a:hover:before {
+    z-index: -1;
+    width: 180%;
+  }
 
 @media (max-width: 280px) {
     .header-grid-title h1{

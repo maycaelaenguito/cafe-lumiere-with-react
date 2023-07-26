@@ -5,7 +5,7 @@
 }
 
 .menu-component{
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .menu-container{
@@ -19,10 +19,9 @@
     color: #35170C;
     font-size: 25px;
     justify-content: center;
-    border-top: solid 1px #35170c36;
-    padding-top: 2rem;
     width: 80%;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .title-wrapper{
