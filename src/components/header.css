@@ -66,31 +66,30 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    cursor: pointer;
     text-decoration: none;
     transition: 0.3s all;
     overflow: hidden;
     margin: 0 1rem;
     z-index: 2;
     margin-top: 2rem;
+    box-shadow: inset 0 0 0px 1px #532300;
   }
 
   .menu-btn button {
     background-color: transparent;
-    cursor: pointer;
     font-weight: 600;
     letter-spacing: 0.56px;
     width: 160px;
-    height: 45px;
+    height: 48px;
     font-size: 14px;
     font-family: 'Catamaran', sans-serif;
-    border: solid 1px #532300;
     text-transform: uppercase;
     color: #532300;
+    border: none;
+    cursor: pointer;
   }
 
   .menu-btn a:before {
-    border: 2px solid #ffffff;
     content: '';
     position: absolute;
     width: 0;
