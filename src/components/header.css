@@ -96,7 +96,7 @@ cursor: pointer;
 .menu-btn a:before {
 content: '';
 position: absolute;
-width: 0;
+width: 5vw;
 height: 100%;
 top: 0;
 left: -5vw;
@@ -158,6 +158,7 @@ width: 180%;
     color: #fff;
     display: flex;
     justify-content: center;
+    font-family: 'Libre Baskerville', sans-serif;
 }
 
 .landscape-coffee h1{
@@ -197,7 +198,7 @@ width: 180%;
 .landscape-btn a:before {
     content: '';
     position: absolute;
-    width: 0;
+    width: 5vw;
     height: 100%;
     top: 0;
     left: -5vw;
