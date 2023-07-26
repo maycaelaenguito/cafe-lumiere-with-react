@@ -8,26 +8,31 @@ const reviews = [
     id: 1,
     text: "Excellent coffee and comfy atmosphere. Will be back!",
     author: "John D.",
+    image: "https://res.cloudinary.com/dk3aalcb0/image/upload/v1690363824/JONATHAN_5022P_ppFIN_e71tcg.jpg",
   },
   {
     id: 2,
     text: "Charming cafe with yummy pastries. Loved the cinnamon roll!",
     author: "Emily S.",
+    image: "https://res.cloudinary.com/dk3aalcb0/image/upload/v1690363940/amanda-seyfried_wrlraj.jpg",
   },
   {
     id: 3,
     text: "Cozy spot for a quick bite. The avocado toast was fantastic!",
     author: "Alex W.",
+    image: "https://res.cloudinary.com/dk3aalcb0/image/upload/v1690363940/Retratos-barcelona-actor-headshots-Irene-Alguilar_jj1ock.jpg",
   },
   {
     id: 4,
     text: "Great service and a variety of teas. A tea lover's paradise!",
     author: "Sarah L.",
+    image: "https://res.cloudinary.com/dk3aalcb0/image/upload/v1690363941/actor-headshots-nyc-new-york-city-sadie-sink-3e844fa7_zu79ko.jpg",
   },
   {
     id: 5,
     text: "Hearty brunch options and friendly staff. Try the pancakes!",
     author: "Mike H.",
+    image: "https://res.cloudinary.com/dk3aalcb0/image/upload/v1690363940/f7b494_547444af3a1f4d19a509db155ac0c3c7_mv2_hqhmbn.jpg",
   },
   // Add more reviews here
 ];
@@ -73,7 +78,12 @@ const ReviewSlider = () => {
             >
               <div className="review-holder">
                 <p className="review-text">{review.text}</p>
-                <p className="author">- {review.author}</p>
+                <div className="agent-container">
+                  <div className="agent">
+                    <img src={review.image} alt="agent" />
+                  </div>
+                </div>
+                <p className="author"> {review.author}</p>
               </div>
             </div>
           ))}
