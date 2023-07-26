@@ -85,30 +85,39 @@
 .sub-menu {
   position: relative;
   display: inline-block;
+  transition: 0.3s all;
 } 
 
-.sub-menu:hover::after{
+.sub-menu a{
+  position: relative;
+}
+
+.sub-menu::before{
   content: "";
   position: absolute;
-  top: 4vh;
+  height: 0%;
+  transition: .6s all;
+  top: 100%;
   bottom: 0;
   left: 50%; 
   border-left: 1px solid #fff; 
-  height: 35px;
+  transform: skew(180deg); 
+}
+
+.sub-menu:hover::before{
+  height: 80%;
+  top: 5vh;
+  bottom: 0;
 }
 
 .sub-menu a.active::after{
   content: "";
   position: absolute;
-  top: 5.5vh;
+  top: 5vh;
   bottom: 0;
   left: 50%; 
   border-left: 1px solid #fff; 
-  height: 10%;
-}
-
-.sub-menu a{
-  position: relative;
+  height: 27px;
 }
 
 #sub-links a{
