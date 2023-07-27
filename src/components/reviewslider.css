@@ -83,4 +83,28 @@
   }
 }
 
-@media (min-width: 768px){}
+@media (min-width: 768px){
+  .review-text{
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px){
+  .review-text{
+    width: 75%;
+  }
+  .slide-control-icon{
+    margin: 0 1rem;
+  }
+}
+
+@media (min-width: 1200px){
+  .review-text{
+    width: 60%;
+  }
+  .review-holder{
+    margin-top: 3rem;
+  }
+  
+}
+
