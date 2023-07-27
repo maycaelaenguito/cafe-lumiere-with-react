@@ -64,6 +64,10 @@
   top: 8.4vh;
 }
 
+.sub-links{
+  margin-top: 3rem;
+}
+
 #menu a {
 	text-decoration: none;
 	display: block;
@@ -123,6 +127,14 @@
 #sub-links a{
   color: #fff;
 }
+
+/* #sub-links li:first-child{
+  margin-top: 2rem;
+}
+
+#sub-links li:last-child{
+  margin-bottom: 2rem;
+} */
 
 #sub-links a:hover{
   color: #3A1600;
