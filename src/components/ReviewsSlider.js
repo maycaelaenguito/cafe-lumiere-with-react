@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./reviewslider.css"; 
 import {BsChevronLeft} from 'react-icons/bs';
 import {BsChevronRight} from 'react-icons/bs';
+import {RiDoubleQuotesL} from 'react-icons/ri';
 
 const reviews = [
   {
@@ -77,6 +78,11 @@ const ReviewSlider = () => {
               className={`slider-item ${index === currentReview ? "active" : ""}`}
             >
               <div className="review-holder">
+                <div className="review-icon-holder">
+                  <div className="review-icon">
+                    <RiDoubleQuotesL size={90}/>
+                  </div>
+                </div>
                 <div className="review-text-holder">
                   <p className="review-text">{review.text}</p>
                 </div>

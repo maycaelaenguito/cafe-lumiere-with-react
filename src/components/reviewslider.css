@@ -39,7 +39,7 @@
 
 .author {
   font-size: 18px;
-  color: #3a1600c4;
+  color: #00000058;
   font-weight: bold;
   text-align: center;
   font-family: 'Catamaran', sans-serif;
@@ -77,6 +77,14 @@
   object-fit: cover; /* Ensure the image fills the container while maintaining aspect ratio */
 }
 
+.review-icon-holder{
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+
+
 @media (max-width: 500px){
   .slide-control-icon{
     display: none;
@@ -86,12 +94,20 @@
 @media (min-width: 768px){
   .review-text{
     width: 80%;
+    font-size: 25px;
+  }
+  .author {
+    font-size: 20px;
   }
 }
 
 @media (min-width: 992px){
   .review-text{
     width: 75%;
+    font-size: 30px;
+  }
+  .author {
+    font-size: 22px;
   }
   .slide-control-icon{
     margin: 0 1rem;
