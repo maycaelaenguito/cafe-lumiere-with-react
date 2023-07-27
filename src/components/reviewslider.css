@@ -18,24 +18,32 @@
   opacity: 1;
 }
 
+.review-holder{
+  cursor: none;
+}
+
 .review-text-holder{
  display: flex;
  justify-content: center;
+ cursor: none;
 }
 
 .review-text {
   font-size: 20px;
-  width: 80%;
+  font-weight: 600;
+  color: #3A1600;
+  /* width: 80%; */
   text-align: center;
   font-family: 'Libre Baskerville', serif;
 }
 
 .author {
   font-size: 18px;
-  color: rgba(99, 99, 99, 0.644);
+  color: #3a1600c4;
   font-weight: bold;
   text-align: center;
   font-family: 'Catamaran', sans-serif;
+  cursor: none;
 }
 
 .slide-control div{
@@ -45,6 +53,8 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
+  color: #3A1600;
 }
 
 .agent-container{
@@ -72,3 +82,5 @@
     display: none;
   }
 }
+
+@media (min-width: 768px){}
