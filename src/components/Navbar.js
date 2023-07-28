@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { Squash as Hamburger } from 'hamburger-react';
 import Logo from '../assets/Cafe Lumiere Logo.png';
-import './css/navbar.css';
+import '../css/navbar.css';
 
 /**
  * Navbar component.

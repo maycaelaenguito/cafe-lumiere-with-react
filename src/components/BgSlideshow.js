@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/bgslideshow.css';
+import '../css/bgslideshow.css';
 import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
 
