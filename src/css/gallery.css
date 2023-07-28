@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery-container{
+    display: grid;
+    gap: 1rem;
+}
+
+.image-container{
+    display: none;
+}
+
+.gallery-holder{
+    display: flex;
+    justify-content: center;
+}
+.gallery{
+    height: 30vh;
+    width: 90%;
+}
+
+
+.gallery1{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529609/Cafe%20Lumiere/6_zgctye.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery2{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529609/Cafe%20Lumiere/5_ak2ipi.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gallery3{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529609/Cafe%20Lumiere/7_ymcszd.png);
+    background-position: top center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gallery4{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529609/Cafe%20Lumiere/1_d5pfny.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gallery5{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529611/Cafe%20Lumiere/4_ivg736.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gallery6{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529610/Cafe%20Lumiere/3_wikkwj.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gallery7{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529610/Cafe%20Lumiere/2_axstlq.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

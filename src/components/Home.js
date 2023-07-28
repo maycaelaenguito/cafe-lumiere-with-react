@@ -4,6 +4,7 @@ import Header from './Header';
 import MenuComponent from './MenuComponent';
 import BgSlideshow from './BgSlideshow';
 import ReviewsSlider from './ReviewsSlider';
+import Gallery from './Gallery';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Header />
       <MenuComponent />
       <ReviewsSlider />
+      <Gallery/>
       <div className="open-hours">
         <div>
           <h1>Open Hours</h1>
@@ -27,8 +29,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div>
-      </div>
+
     </div>
   );
 };
