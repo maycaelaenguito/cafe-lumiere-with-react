@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./css/reviewslider.css"; 
+import "../css/reviewslider.css"; 
 import {BsChevronLeft} from 'react-icons/bs';
 import {BsChevronRight} from 'react-icons/bs';
 import {RiDoubleQuotesL} from 'react-icons/ri';

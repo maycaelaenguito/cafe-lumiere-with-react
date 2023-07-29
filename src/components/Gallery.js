@@ -60,6 +60,22 @@ const Gallery = () => {
         </div>
       </div>
       </div>
+
+      <div className="gallery-holder">
+      <div className="gallery8 gallery">
+        <div className="image-container">
+          <img src={"https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529611/Cafe%20Lumiere/4_ivg736.png"} alt="" />
+        </div>
+      </div>
+      </div>
+
+      <div className="gallery-holder">
+      <div className="gallery9 gallery">
+        <div className="image-container">
+          <img src={"https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529611/Cafe%20Lumiere/4_ivg736.png"} alt="" />
+        </div>
+      </div>
+      </div>
     </div>
   )
 }

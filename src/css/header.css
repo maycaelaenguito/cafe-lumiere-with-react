@@ -352,7 +352,7 @@ width: 180%;
         align-items: flex-end;
         height: auto;
     }
-
+    
 }
 @media (min-width: 1300px){
     .header-grid-description p{

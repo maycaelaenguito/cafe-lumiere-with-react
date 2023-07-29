@@ -78,6 +78,13 @@
   justify-content: center;
 }
 
+@media (max-width: 400px){
+  .review-text{
+    font-size: 17px;
+    width: 90%;
+  }
+}
+
 @media (max-width: 500px){
   .slide-control-icon{
     display: none;

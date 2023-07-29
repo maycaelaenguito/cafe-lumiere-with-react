@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/home.css';
+import '../css/home.css';
 import Header from './Header';
 import MenuComponent from './MenuComponent';
 import BgSlideshow from './BgSlideshow';
