@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className={`hamburger-menu ${isOpen ? 'open' : ''}`}>
         <span></span>
         <ul>
-          <Link to="/">
+          <Link exact="true" to="/">
             <li>Home</li>
           </Link>
           <Link to="/about">
@@ -60,7 +60,7 @@ const Navbar = () => {
           <div className='nav-menu'>
             <ul id="menu">
               <li className='sub-menu'>  
-                <NavLink exact to="/" activeClassName="active" className='parent-links'>Home</NavLink> 
+                <NavLink exact="true" to="/" activeclassname="active" className='parent-links'>Home</NavLink> 
               <div id='sub-links'>
                 <ul>
                     <li> <Link to="/">Homepage</Link> </li>
@@ -70,7 +70,7 @@ const Navbar = () => {
               </div>
               </li>
               <li className="sub-menu">
-                <NavLink to="/about" activeClassName="active">About</NavLink>
+                <NavLink exact="true" to="/about" activeclassname="active">About</NavLink>
                 <div id="sub-links">
                   <ul>
                     <li> <Link to="/about/how-we-started">How We Started</Link> </li>
@@ -80,7 +80,7 @@ const Navbar = () => {
                 </div>
               </li>
               <li className="sub-menu"> 
-                <NavLink to="/blogs" activeClassName="active">Blogs</NavLink>
+                <NavLink exact="true" to="/blogs" activeclassname="active">Blogs</NavLink>
                <div id="sub-links">
                 <ul>
                     <li> <Link to="/blogs/blog-one">Coffee Chronicles</Link> </li>
@@ -91,7 +91,7 @@ const Navbar = () => {
                </div>
               </li>
               <li className="sub-menu"> 
-                <NavLink to="/contactus" activeClassName="active">Contact Us</NavLink> 
+                <NavLink exact="true" to="/contactus" activeclassname="active">Contact Us</NavLink> 
                 <div id="sub-links">
                   <ul>
                     <li><Link to="/contactus/booking">Book Now</Link></li>
