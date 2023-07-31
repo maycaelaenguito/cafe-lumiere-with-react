@@ -11,6 +11,11 @@
     color: #fff;
     margin-top: 15vh;
     padding-top: 15vh;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.footer-container h1{
+    font-family: 'Libre Baskerville', serif;
 }
 
 .footer-wrapper {
@@ -27,8 +32,14 @@
 }  
 
 
-.footer-holder a {
+.footer-holder a, .copyright a, .footer-holder p, .bottom-footer p{
     text-decoration: none;
+    color: #ffffffd4;
+    letter-spacing: .05em;
+}
+
+
+.footer-holder a:hover, .copyright a:hover{
     color: #fff;
 }
 
@@ -39,9 +50,9 @@
 .open-hours .dash::before {
     content: ' '; /* Unicode character for em dash (—) */
     display: inline-block;
-    width: 50px; /* Adjust the width to control the length of the dash */
-    height: 2px; /* Adjust the height to control the thickness of the dash */
-    background-color: #fff; /* Change #000 to the desired color of the dash */
+    min-width: 10vw; /* Adjust the width to control the length of the dash */
+    height: 1px; /* Adjust the height to control the thickness of the dash */
+    background-color: #ffffff84; /* Change #000 to the desired color of the dash */
     margin-bottom: 5px;
 }
 
@@ -53,7 +64,15 @@
     margin-top: 2rem;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
+
+.copyright span{
+    text-transform: capitalize;
+}
+
+
+
 
 /* Media query for devices with a minimum width of 700px */
 @media (min-width: 700px) {
@@ -82,9 +101,19 @@
 }
 
 @media (min-width: 1028px){
-    
+
     .footer-left, .footer-right{
         display: flex;
         flex-direction: row;
     }
+
+    .footer-holder a, .footer-holder p {
+        font-size: 18px;
+    }
+
+    .open-hours .dash::before {
+        min-width: 5vw;
+        margin-right: 5px;
+    }
+
 }

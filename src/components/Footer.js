@@ -52,11 +52,11 @@ const Footer = () => {
                             <div>
                                 <div>
                                 <p>
-                                    Monday - Friday <span className='dash'></span>10:00 am - 9:00 pm
+                                    Monday - Friday <span className='dash'></span>10:00 - 21:00
                                 </p>
                                 </div>
                                 <p>
-                                Saturday - Sunday <span className='dash'></span>10:00 am - 11:00 pm
+                                Saturday - Sunday <span className='dash'></span>10:00 - 23:00 
                                 </p>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const Footer = () => {
 
             <div className="bottom-footer">
                 <div className="copyright">
-                    <p title='Hello'>© 2023 MYCLSE. All rights reserved.</p>
+                    <p title='Hello'>© 2023 <Link to='/'>MYCLSE</Link>. <span>All rights reserved.</span></p>
                 </div>
             </div>
        </div>
