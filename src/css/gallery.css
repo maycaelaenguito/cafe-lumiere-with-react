@@ -18,7 +18,7 @@
 
 .gallery-holder {
     flex: 1 1 100%;
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     position: relative;
     overflow: hidden;
@@ -26,7 +26,7 @@
 
 .gallery {
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     background-blend-mode: hard-light;
     background-position: center;
     background-size: cover;
@@ -86,14 +86,14 @@
     background-repeat: no-repeat;
 }
 .gallery5{
-    background: rgba(77, 0, 0, 0.299) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529611/Cafe%20Lumiere/4_ivg736.png);
-    background-position: center;
+    background: rgba(77, 36, 0, 0.29) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690618283/Cafe%20Lumiere/starbucks-g94c482e9d_1280_y1fjha.jpg);
+    background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .gallery6{
-    background: rgba(77, 36, 0, 0.29) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690618283/Cafe%20Lumiere/starbucks-g94c482e9d_1280_y1fjha.jpg);
-    background-position: top center;
+    background: rgba(77, 0, 0, 0.299) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529611/Cafe%20Lumiere/4_ivg736.png);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -116,15 +116,19 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    flex: 1 1 100%;
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
 }
 
-
-
-
-@media (min-width: 500px) {
+@media (min-width: 400px) {
     .gallery-holder {
-        flex-basis: calc(50% - 1rem);
         max-width: calc(50% - 1rem);
+    }
+    .cover-full{
+        max-width: calc(100% - 1rem);
     }
 }
 
@@ -133,7 +137,7 @@
         flex-basis: calc(33.3333% - 2rem);
         max-width: calc(33.3333% - 2rem);
     }
-    .gallery{
+    .gallery {
         height: 40vh;
     }
 }

@@ -21,7 +21,7 @@ const Gallery = () => {
       </div>
       </div>
 
-      <div className="gallery-holder">
+      <div className="gallery-holder cover-full">
       <div className="gallery3 gallery">
         <div className="image-container">
           <img src={"https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529609/Cafe%20Lumiere/7_ymcszd.png"} alt="" />
@@ -45,7 +45,7 @@ const Gallery = () => {
       </div>
       </div>
 
-      <div className="gallery-holder">
+      <div className="gallery-holder cover-full">
       <div className="gallery6 gallery">
        <div className="image-container">
           <img src={"https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529610/Cafe%20Lumiere/3_wikkwj.png"} alt="" />
@@ -69,7 +69,7 @@ const Gallery = () => {
       </div>
       </div>
 
-      <div className="gallery-holder">
+      <div className="gallery-holder cover-full">
       <div className="gallery9 gallery">
         <div className="image-container">
           <img src={"https://res.cloudinary.com/dk3aalcb0/image/upload/v1690529611/Cafe%20Lumiere/4_ivg736.png"} alt="" />
