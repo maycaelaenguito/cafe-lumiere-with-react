@@ -12,7 +12,7 @@ const Header = () => {
              <img src={BrownCoffee} alt="Brown Coffee"/>
             </div>
             <div className='header-grid-title'>
-              <h1>Exquisite Cuisine</h1>
+              <p>Exquisite Cuisine</p>
             </div>
             <div className="header-grid-description">
               <h3>Journey to a bygone era of elegance at Cafe Lumiere, a retro-themed haven where timeless charm meets refined indulgence.</h3>

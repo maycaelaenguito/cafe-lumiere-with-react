@@ -5,8 +5,13 @@ import '../css/about.css';
 const About = () => {
   return (
     <div className='about'>
+     <div className="about-header">
       <Navbar/>
-      <h1>About</h1>
+        <div className="about-title">
+          <p>About Us</p>
+        </div>
+     </div>
+     
     </div>
   )
 }

@@ -55,7 +55,7 @@ const Navbar = () => {
     {/* Navbar */}
         <div className='navbar'>
           <div className='logo-cnt'>
-            <img src={Logo} alt="Cafe Lumiere Logo" />
+            <Link to='/'><img src={Logo} alt="Cafe Lumiere Logo" /></Link>
           </div>
           <div className='nav-menu'>
             <ul id="menu">
@@ -73,7 +73,7 @@ const Navbar = () => {
                 <NavLink exact="true" to="/about" activeclassname="active">About</NavLink>
                 <div id="sub-links">
                   <ul>
-                    <li> <Link to="/about/how-we-started">How We Started</Link> </li>
+                    <li> <Link to="/about/how-we-started">About Us</Link> </li>
                     <li> <Link to="/about/menu">Our Menu</Link> </li>
                     <li> <Link to="/about/careers">Careers</Link> </li>
                   </ul>

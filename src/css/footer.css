@@ -116,4 +116,8 @@
         margin-right: 5px;
     }
 
+    .footer-logo img{
+        min-width: 12vw;
+    }
+
 }
