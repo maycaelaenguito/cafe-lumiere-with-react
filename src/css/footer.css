@@ -14,8 +14,10 @@
     font-family: 'Catamaran', sans-serif;
 }
 
-.footer-container h1{
+.footer-item h1{
     font-family: 'Libre Baskerville', serif;
+    margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 .footer-wrapper {
@@ -35,12 +37,22 @@
 .footer-holder a, .copyright a, .footer-holder p, .bottom-footer p{
     text-decoration: none;
     color: #ffffffd4;
-    letter-spacing: .05em;
 }
 
 
 .footer-holder a:hover, .copyright a:hover{
     color: #fff;
+}
+
+.footer-holder a{
+    letter-spacing: .08em;
+}
+
+.footer-item h1{
+    font-size: 22px;
+}
+.footer-holder a, .footer-holder p {
+    font-size: 16px;
 }
 
 .footer-holder li {
@@ -50,14 +62,19 @@
 .open-hours .dash::before {
     content: ' '; /* Unicode character for em dash (—) */
     display: inline-block;
-    min-width: 10vw; /* Adjust the width to control the length of the dash */
+    width: 5vw; /* Adjust the width to control the length of the dash */
     height: 1px; /* Adjust the height to control the thickness of the dash */
     background-color: #ffffff84; /* Change #000 to the desired color of the dash */
     margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 .footer-logo img {
     width: 150px;
+}
+
+.footer-item{
+    margin-bottom: 2rem;
 }
 
 .bottom-footer {
@@ -71,10 +88,31 @@
     text-transform: capitalize;
 }
 
+.copyright a{
+    text-transform: uppercase;
+}
 
 
+@media  (min-width: 350px){
+    .open-hours .dash::before{
+        min-width: 30%;
+    }
+
+    .open-hours{
+        white-space: nowrap;
+    }
+}
 
 /* Media query for devices with a minimum width of 700px */
+@media  (min-width: 440px) and (max-width: 699px){
+    .open-hours .dash::before{
+        min-width: 45%;
+    }
+
+    .open-hours{
+        white-space: nowrap;
+    }
+}
 @media (min-width: 700px) {
     .footer-wrapper{
         width: 90%;
@@ -97,18 +135,19 @@
         width: 100%;
         height: fit-content;
     }
-    
+    .footer-item h1{
+        font-size: 23px;
+    }
+    .footer-holder a, .footer-holder p {
+        font-size: 16px;
+    }
 }
 
-@media (min-width: 1028px){
+@media (min-width: 1068px){
 
     .footer-left, .footer-right{
         display: flex;
         flex-direction: row;
-    }
-
-    .footer-holder a, .footer-holder p {
-        font-size: 18px;
     }
 
     .open-hours .dash::before {
@@ -120,4 +159,20 @@
         min-width: 12vw;
     }
 
+    .footer-item h1{
+        font-size: 2.1vw;
+    }
+    .footer-holder a, .footer-holder p {
+        font-size: 1.4vw;
+    }
+
+}
+
+@media (min-width: 1400px){
+    .footer-item h1{
+        font-size: 1.6vw;
+    }
+    .footer-holder a, .footer-holder p {
+        font-size: 1.2vw;
+    }
 }
