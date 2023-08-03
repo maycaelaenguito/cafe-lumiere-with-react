@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.menu-nav{
+    position: absolute;
+    width: 100%;
+}
+
+.menu-header{
+    background: rgba(0, 0, 0, 0.257) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691057001/Cafe%20Lumiere/coffee-3759005_mlcioi.jpg);
+    background-blend-mode: darken;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 120px;
+    letter-spacing: .05em;
+}
