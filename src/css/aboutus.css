@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-us-container{
+    background: rgba(0, 0, 0, 0.306) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691056824/Cafe%20Lumiere/people-g345ea159f_1920_ja0ewt.jpg);
+    background-blend-mode: darken;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 120px;
+    letter-spacing: .05em;
+}
+
+.aboutus-nav{
+    position: absolute;
+    width: 100%;
+}

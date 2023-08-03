@@ -73,7 +73,7 @@ const Navbar = () => {
                 <NavLink exact="true" to="/about" activeclassname="active">About</NavLink>
                 <div id="sub-links">
                   <ul>
-                    <li> <Link to="/about/how-we-started">About Us</Link> </li>
+                    <li> <Link to="/about/how-we-started">Our Team</Link> </li>
                     <li> <Link to="/about/menu">Our Menu</Link> </li>
                     <li> <Link to="/about/careers">Careers</Link> </li>
                   </ul>

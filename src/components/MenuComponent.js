@@ -6,11 +6,6 @@ const MenuComponent = () => {
   return (
     <div className='menu-component'>
       <div className="menu-container">
-        <div className='title-wrapper'>
-          <div className="menu-title">
-            <h1>Our Menu</h1>
-          </div>
-        </div>
         <div className="menu-category">
           <div className="category-container">
           <Link to="/about/menu">

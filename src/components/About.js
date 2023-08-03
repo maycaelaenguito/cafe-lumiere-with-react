@@ -4,15 +4,15 @@ import '../css/about.css';
 
 const About = () => {
   return (
-    <div className='about'>
-     <div className="about-header">
-      <Navbar/>
-        <div className="about-title">
-          <p>About Us</p>
-        </div>
-     </div>
-     
+    <div>
+      <div className='about-nav'>
+        <Navbar/>
+      </div>
+      <div id='about'>
+        <p>About</p>
+      </div>
     </div>
+    
   )
 }
 
