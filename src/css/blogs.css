@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blogs-nav{
+    position: absolute;
+    width: 100%;
+    background: #3A1600;
+    height: 12vh;
+}
+
+.blogs-header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20vh;
+}
+
+.blogs-container{
+    display: grid;
+    gap: 1rem;
+    padding: 3rem;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 25% auto auto 25%;
+}
+
+.blogs{
+    text-align: center;
+    padding: 20px;
+}
+
+.chronicles{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.bliss {
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.delights{
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.blog-title{
+    margin-top: 2rem;
+}
+
+.blog-description{
+    margin-top: 1rem;
+}
+
+.chronicles-img{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691058942/Cafe%20Lumiere/barista-6197867_1920_d7pakh.jpg);
+    width: auto;
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bliss-img{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690781631/Cafe%20Lumiere/cafe-gb15209a6d_1920_grf9a0.jpg);
+    width: auto;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* .bliss {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.temptations {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+} */
+
+
