@@ -145,7 +145,8 @@ width: 180%;
     color: #fff;
     display: flex;
     justify-content: center;
-    font-family: 'Libre Baskerville', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400
 }
 
 .landscape-coffee h1{
@@ -206,6 +207,19 @@ width: 180%;
     width: 180%;
   }
 
+@media (max-width: 280px){
+    .landscape-coffee h1{
+        font-size: 10vw;
+    }
+
+    .landscape-coffee h2{
+        font-size: 8vw;
+    }
+
+    .landscape-coffee h3{
+        font-size: 6vw;
+    }
+}
 
 @media (max-width: 280px) {
     .header-grid-title p{
@@ -253,16 +267,44 @@ width: 180%;
     }
 }
 
+@media (min-width: 400px){
+    .landscape-coffee h1{
+        font-size: 35px;
+    }
+
+    .landscape-coffee h2{
+        font-size: 30px;
+    }
+
+    .landscape-coffee h3{
+        font-size: 25px;
+    }
+
+}
 
 @media (min-width: 768px){
     .landscape-coffee h1, .landscape-coffee h2, .landscape-coffee h3, .landscape-btn{
         justify-content: left;
+        white-space: nowrap;
     }
+    
+    .landscape-coffee h1{
+        font-size: 40px;
+    }
+
+    .landscape-coffee h2{
+        font-size: 30px;
+    }
+
+    .landscape-coffee h3{
+        font-size: 20px;
+    }
+
     .space{
         display: flex;
     }
     .landscape-text{
-        padding-right: 10rem;
+        padding-right: 6vw;
         width: 50%;
         height: 50%;
         display: flex;
@@ -274,6 +316,7 @@ width: 180%;
         justify-content: space-between;
     }
 }
+
 @media (max-width: 991px) {
     .header-grid-description{
         display: flex;
@@ -339,6 +382,19 @@ width: 180%;
         align-items: flex-end;
         height: auto;
     }
+
+    .landscape-coffee h1{
+        font-size: 60px;
+    }
+
+    .landscape-coffee h2{
+        font-size: 50px;
+    }
+
+    .landscape-coffee h3{
+        font-size: 40px;
+    }
+
     
 }
 @media (min-width: 1300px){
