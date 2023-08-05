@@ -2,9 +2,10 @@ import React from 'react';
 import Navbar from './Navbar';
 import '../css/blogs.css';
 
+
 const Blogs = () => {
   return (
-    <div>
+    <div style={{height: '10000vh'}}>
       <div className="blogs-nav">
         <Navbar/>
       </div>
@@ -67,6 +68,7 @@ const Blogs = () => {
             </div>
           </div>
       </div>
+
     </div>
   )
 }

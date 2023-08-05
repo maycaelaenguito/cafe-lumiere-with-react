@@ -77,7 +77,7 @@ const ReviewSlider = () => {
               key={review.id}
               className={`slider-item ${index === currentReview ? "active" : ""}`}
             >
-              <div className="review-holder">
+              <div id="reviews" className="review-holder">
                 <div className="review-icon-holder">
                   <div className="review-icon">
                     <RiDoubleQuotesL size={90}/>

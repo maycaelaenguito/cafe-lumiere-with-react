@@ -59,15 +59,17 @@ const Navbar = () => {
           </div>
           <div className='nav-menu'>
             <ul id="menu">
-              <li className='sub-menu'>  
-                <NavLink exact="true" to="/" activeclassname="active" className='parent-links'>Home</NavLink> 
-              <div id='sub-links'>
-                <ul>
+              <li className='sub-menu'>
+                <NavLink exact to="/" activeClassName="active" className='parent-links'>
+                  Home
+                </NavLink>
+                <div id='sub-links'>
+                  <ul>
                     <li> <Link to="/">Homepage</Link> </li>
-                    <li> <Link to="/reviews">Reviews</Link> </li>
-                    <li> <Link to="/open-hours">Open Hours</Link> </li>
-                </ul>
-              </div>
+                    <li> <a href="/#reviews">Reviews</a> </li>
+                    <li> <a href="/#open-hours">Open Hours</a> </li>
+                  </ul>
+                </div>
               </li>
               <li className="sub-menu">
                 <NavLink exact="true" to="/about" activeclassname="active">About</NavLink>
