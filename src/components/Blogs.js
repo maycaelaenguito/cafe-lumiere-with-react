@@ -5,7 +5,7 @@ import '../css/blogs.css';
 
 const Blogs = () => {
   return (
-    <div style={{height: '10000vh'}}>
+    <div>
       <div className="blogs-nav">
         <Navbar/>
       </div>
@@ -13,7 +13,9 @@ const Blogs = () => {
           <div className="blogs-container">
             {/* First Blog */}
             <div className="chronicles blogs">
-              <div className="chronicles-img blogs-img">
+              <div className='just-center'>
+                <div className="chronicles-img blogs-img">
+                </div>
               </div>
               <div className="blog-posted">
                 <p>07 / 22 / 2023</p>
@@ -27,7 +29,9 @@ const Blogs = () => {
             </div>
             {/* Second Blog */}
             <div className="bliss blogs">
-              <div className="bliss-img">
+              <div className="just-center">
+                <div className="bliss-img blogs-img">
+                </div>
               </div>
               <div className="blog-posted">
                 <p>03 / 11 / 2023</p>
@@ -41,8 +45,10 @@ const Blogs = () => {
             </div>
             {/* Third Blog */}
             <div className="delights blogs">
-              <div className="delights-img blogs-img">
+              <div className="just-center">
+                <div className="delights-img blogs-img">
                 </div>
+              </div>
                 <div className="blog-posted">
                   <p>02 / 14 / 2023</p>
                </div>
@@ -55,8 +61,10 @@ const Blogs = () => {
             </div>
             {/* Fourth Blog */}
             <div className="culture blogs">
-              <div className="culture-img blogs-img">
+              <div className="just-center">
+                <div className="culture-img blogs-img">
                 </div>
+              </div>
                 <div className="blog-posted">
                  <p>06 / 01 / 2023</p>
                 </div>
@@ -69,7 +77,9 @@ const Blogs = () => {
             </div>
             {/* Fifth Blog */}
             <div className="temptations blogs">
-              <div className="temptations-img blogs-img">
+                <div className="just-center">
+                  <div className="temptations-img blogs-img">
+                  </div>
                 </div>
                 <div className="blog-posted">
                   <p>05 / 30 / 2023</p>
