@@ -13,7 +13,10 @@ const Blogs = () => {
           <div className="blogs-container">
             {/* First Blog */}
             <div className="chronicles blogs">
-              <div className="chronicles-img">
+              <div className="chronicles-img blogs-img">
+              </div>
+              <div className="blog-posted">
+                <p>07 / 22 / 2023</p>
               </div>
               <div className="blog-title">
                 <h1>Coffee Chronicles: Sipping through Time and Cultures</h1>
@@ -26,6 +29,9 @@ const Blogs = () => {
             <div className="bliss blogs">
               <div className="bliss-img">
               </div>
+              <div className="blog-posted">
+                <p>03 / 11 / 2023</p>
+              </div>
               <div className="blog-title">
                 <h1>Unveiling the Art of Brewing Blissful Cups at Home</h1>
               </div>
@@ -35,8 +41,11 @@ const Blogs = () => {
             </div>
             {/* Third Blog */}
             <div className="delights blogs">
-              <div className="chronicles-img">
+              <div className="delights-img blogs-img">
                 </div>
+                <div className="blog-posted">
+                  <p>02 / 14 / 2023</p>
+               </div>
                 <div className="blog-title">
                   <h1>10 Most Popular Pastries in Europe</h1>
                 </div>
@@ -46,10 +55,13 @@ const Blogs = () => {
             </div>
             {/* Fourth Blog */}
             <div className="culture blogs">
-              <div className="chronicles-img">
+              <div className="culture-img blogs-img">
+                </div>
+                <div className="blog-posted">
+                 <p>06 / 01 / 2023</p>
                 </div>
                 <div className="blog-title">
-                  <h1>The Coffee Chronicles: Sipping through Time and Cultures</h1>
+                  <h1>Best Alternatives to Caffeine</h1>
                 </div>
                 <div className="blog-description">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -57,10 +69,13 @@ const Blogs = () => {
             </div>
             {/* Fifth Blog */}
             <div className="temptations blogs">
-              <div className="chronicles-img">
+              <div className="temptations-img blogs-img">
+                </div>
+                <div className="blog-posted">
+                  <p>05 / 30 / 2023</p>
                 </div>
                 <div className="blog-title">
-                  <h1>The Coffee Chronicles: Sipping through Time and Cultures</h1>
+                  <h1>Reasons Why You'll love These Desserts</h1>
                 </div>
                 <div className="blog-description">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

@@ -16,6 +16,7 @@
     justify-content: center;
     width: 100%;
     padding-top: 15vh;
+    font-family: 'Catamaran', sans-serif;
 }
 
 .blogs-container{
@@ -55,17 +56,41 @@
     margin-top: 1rem;
 }
 
-.chronicles-img{
-    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691058942/Cafe%20Lumiere/barista-6197867_1920_d7pakh.jpg);
+.blogs-img{
     width: auto;
     height: 30vh;
+}
+
+.chronicles-img{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691368696/Cafe%20Lumiere/turkish-coffee-1021286_1920_cfrh4e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.delights-img{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691368924/Cafe%20Lumiere/bread-1284438_1280_wg5w6y.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.culture-img{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691369052/Cafe%20Lumiere/tee-1740871_1280_twqbvs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.temptations-img{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691369279/Cafe%20Lumiere/cake-1284548_1280_powrs4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bliss-img{
-    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1690781631/Cafe%20Lumiere/cafe-gb15209a6d_1920_grf9a0.jpg);
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691369441/Cafe%20Lumiere/coffee-4388065_1280_x6broy.jpg);
     width: auto;
     height: 70vh;
     background-position: center;

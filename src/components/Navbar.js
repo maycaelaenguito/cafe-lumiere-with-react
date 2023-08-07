@@ -86,9 +86,9 @@ const Navbar = () => {
                 <ul>
                     <li> <Link to="/blogs/blog-one">Coffee Chronicles</Link> </li>
                     <li> <Link to="/blogs/blog-two">Brewing Bliss</Link> </li>
-                    <li> <Link to="/blogs/blog-three">Divine Delights</Link> </li>
+                    <li> <Link to="/blogs/blog-three">Pastries</Link> </li>
                     <li> <Link to="/blogs/blog-four">Caffeine Culture</Link> </li>
-                    <li> <Link to="/blogs/blog-four">Sweet Temptations</Link> </li>
+                    <li> <Link to="/blogs/blog-four">Desserts</Link> </li>
 
                   </ul>
                </div>
