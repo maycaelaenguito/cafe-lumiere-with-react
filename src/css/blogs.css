@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 .blogs-container{
@@ -24,7 +24,7 @@
     padding: 3rem;
     width: 100%;
     height: auto;
-    grid-template-columns: 25% auto auto 25%;
+    grid-template-columns: 30% auto auto 30%;
 }
 
 .blogs{
