@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/header.css';
 import BrownCoffee from '../assets/Coffee 1 (1).png';
-import { Link } from 'react-router-dom';
 import BookingBtn from './BookingBtn';
 import MenuBtn from './MenuBtn';
 
