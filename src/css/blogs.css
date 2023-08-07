@@ -19,6 +19,15 @@
     font-family: 'Catamaran', sans-serif;
 }
 
+.blogs-header h1{
+    font-weight: 500;
+}
+
+.blog-description p{
+    color: #000000bc;
+    font-size: larger;
+}
+
 .blogs-container{
     display: grid;
     gap: 1rem;
@@ -90,12 +99,13 @@
 }
 
 .bliss-img{
-    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691369441/Cafe%20Lumiere/coffee-4388065_1280_x6broy.jpg);
+    background: rgba(56, 25, 0, 0.22) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691374842/Cafe%20Lumiere/coffee-5712775_1920_lda89s.jpg);
     width: auto;
     height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: hard-light;
 }
 
 

@@ -1,0 +1,145 @@
+
+.landscape-btn a{
+    width: 160px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s all;
+    overflow: hidden;
+    z-index: 2;
+    margin-top: 2rem;
+    box-shadow: inset 0 0 0px 1px #fdfdfd;
+    color: #fff;
+}
+
+.landscape-btn button{
+    background-color: transparent;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    width: 160px;
+    height: 48px;
+    font-size: 14px;
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.landscape-btn a:before {
+    content: '';
+    position: absolute;
+    width: 6vw;
+    height: 100%;
+    top: 0;
+    left: -6vw;
+    background: #ffffff;
+    transition: .6s all;
+    z-index: -1;
+    transform: skew(45deg);
+  }
+  
+  .landscape-btn button:hover {
+    z-index: 2;
+    font-weight: 800;
+    color: #532300;
+  }
+  
+  .landscape-btn a:hover:before {
+    z-index: -1;
+    width: 180%;
+  }
+
+  
+/* Menu Button */
+.menu-btn, .landscape-btn{
+    width: 100%;
+    display: flex;
+}
+
+.menu-btn{
+    justify-content: center;
+}
+
+.menu-btn a{
+    width: 160px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s all;
+    overflow: hidden;
+    margin: 0 1rem;
+    z-index: 2;
+    margin-top: 2rem;
+    box-shadow: inset 0 0 0px 1px #532300;
+}
+
+.menu-btn button {
+    background-color: transparent;
+    font-weight: 600;
+    letter-spacing: 0.56px;
+    width: 160px;
+    height: 48px;
+    font-size: 14px;
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    color: #532300;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-btn a:before {
+    content: '';
+    position: absolute;
+    width: 6vw;
+    height: 100%;
+    top: 0;
+    left: -6vw;
+    background: #532300;
+    transition: .6s all;
+    z-index: -1;
+    transform: skew(45deg);
+}
+
+.menu-btn button:hover {
+    z-index: 2;
+    font-weight: 800;
+    color: #fff;
+}
+  
+.menu-btn a:hover:before {
+    z-index: -1;
+    width: 180%;
+}
+
+  @media (max-width: 350px) {
+    .landscape-btn a, .menu-btn a{
+        max-width: 135px;
+        height: 35px;
+    }
+    .landscape-btn button, .menu-btn button{
+        max-width: 135px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .landscape-btn a, .menu-btn a{
+        width: 170px;
+        height: 50px;
+        margin-top: 4rem;
+    }
+    .landscape-btn button, .menu-btn button{
+        font-size: 15px;
+        width: 170px;
+        height: 50px;
+    }
+}
