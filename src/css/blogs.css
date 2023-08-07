@@ -23,6 +23,8 @@
 
 .blogs-header h1{
     font-weight: 500;
+    color: #3A1600;
+    text-align: center;
 }
 
 .blog-description p{
@@ -44,6 +46,13 @@
 
 .blog-title{
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-description{
+    display: flex;
+    justify-content: center;
 }
 
 .blog-description{
@@ -115,5 +124,16 @@
     }
     .blogs-container{
         padding: 3rem;
+    }
+}
+
+@media (min-width: 1200px){
+    .blogs-header h1{
+        width: 50%;
+        font-size: 45px;
+    }
+
+    .blogs-header p{
+        width: 50%;
     }
 }

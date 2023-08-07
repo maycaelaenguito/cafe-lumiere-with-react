@@ -135,8 +135,12 @@
     .landscape-btn a, .menu-btn a{
         width: 170px;
         height: 50px;
+    }
+
+    .landscape-btn a{
         margin-top: 4rem;
     }
+    
     .landscape-btn button, .menu-btn button{
         font-size: 15px;
         width: 170px;

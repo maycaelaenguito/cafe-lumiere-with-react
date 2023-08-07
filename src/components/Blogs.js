@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar';
 import '../css/blogs.css';
-
+import BlogsBtn from './BlogsBtn';
+import Footer from './Footer';
 
 const Blogs = () => {
   return (
@@ -26,6 +27,9 @@ const Blogs = () => {
               <div className="blog-description">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
+              <div className="blogs-btn">
+                <BlogsBtn/>
+              </div>
             </div>
             {/* Second Blog */}
             <div className="bliss blogs">
@@ -41,6 +45,9 @@ const Blogs = () => {
               </div>
               <div className="blog-description">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur tellus euismod, luctus enim id, venenatis velit. Sed cursus, neque quis vulputate tristique, augue elit consectetur elit. Suspendisse ornare ligula eu semper tempor. Fusce interdum, sapien ac fermentum vehicula, mi enim tincidunt neque, a blandit mi orci a urna. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque congue volutpat elit ac gravida. Aliquam eget dui at felis pellentesque tincidunt.</p>
+              </div>
+              <div className="blogs-btn">
+                <BlogsBtn/>
               </div>
             </div>
             {/* Third Blog */}
@@ -58,6 +65,9 @@ const Blogs = () => {
                 <div className="blog-description">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique nulla ac nisi venenatis, id rhoncus elit tincidunt. Cras mattis nibh vitae dolor.</p>
                 </div>
+                <div className="blogs-btn">
+                  <BlogsBtn/>
+                </div>
             </div>
             {/* Fourth Blog */}
             <div className="culture blogs">
@@ -73,6 +83,9 @@ const Blogs = () => {
                 </div>
                 <div className="blog-description">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div className="blogs-btn">
+                  <BlogsBtn/>
                 </div>
             </div>
             {/* Fifth Blog */}
@@ -90,9 +103,13 @@ const Blogs = () => {
                 <div className="blog-description">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
+                <div className="blogs-btn">
+                  <BlogsBtn/>
+                </div>
             </div>
           </div>
       </div>
+      <Footer/>
     </div>
   )
 }
