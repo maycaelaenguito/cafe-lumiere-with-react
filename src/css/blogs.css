@@ -26,10 +26,11 @@
     color: #3A1600;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
+    width: 90%;
 }
 
-.blog-description p{
-    color: #000000bc;
+.blog-description p, .blog-posted{
+    color: #000000a5;
     font-size: larger;
 }
 
@@ -45,10 +46,14 @@
     padding: 20px;
 }
 
-.blog-title{
-    margin-top: 2rem;
+.blog-title, .blog-posted{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+}
+
+.blog-posted{
+    margin-top: 2.5rem;
 }
 
 .blog-description{
