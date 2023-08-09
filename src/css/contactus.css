@@ -1,0 +1,59 @@
+.contactus-nav{
+    background: #3A1600;
+    height: 12vh;
+}
+
+.contactus-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form span{
+    color: rgb(255, 96, 96);
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    width: 90%;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: center;
+}
+
+form button{
+    width: 20%;
+}
+
+@media (max-width: 767px){
+    .contactus-nav{
+        height: 10vh;
+    }
+}
+
+@media (min-width: 768px){
+    .form-item{
+        flex-direction: row;
+    }
+    label{
+        width: 10rem;
+    }
+}
