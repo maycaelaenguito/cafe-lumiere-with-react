@@ -15,15 +15,25 @@
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-family: 'Bonheur Royale', cursive;
+    /* font-family: 'Bonheur Royale', cursive;
     font-size: 120px;
-    letter-spacing: .05em;
+    letter-spacing: .05em; */
 }
 
-.contactus-container{
+.contactus-content{
     display: flex;
-    justify-content: center;
-    margin-top: 5rem;
+    flex-direction: column;
+}
+
+.contactus-booking{
+    background-color: #f5f5fa;
+    color: #42180A;
+    padding: 2rem 3rem;
+}
+
+.contact-details{
+    background-color: #42180A;
+    padding: 2rem 3rem;
 }
 
 form{
@@ -72,5 +82,8 @@ form button{
     }
     label{
         width: 10rem;
+    }
+    .contactus-content{
+        flex-direction: row;
     }
 }
