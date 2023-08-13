@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../css/booking.css';
 
 const Booking = () => {
   const [numPersons, setNumPersons] = useState(1);
@@ -19,7 +20,7 @@ const Booking = () => {
 
   return (
     <div>
-      <h2>Reserve a Seat</h2>
+      <h3>Reserve Your Table</h3>
       <div>
         <label htmlFor="numPersons">Number of Persons:</label>
         <select id="numPersons" value={numPersons} onChange={handleNumPersonsChange}>

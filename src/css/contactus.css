@@ -29,12 +29,40 @@
     background-color: #f5f5fa;
     color: #42180A;
     padding: 2rem 3rem;
+    width: 40vw;
 }
 
 .contact-details{
     background-color: #42180A;
     padding: 2rem 3rem;
 }
+
+.contact-info{
+    display: flex;
+    justify-content: row;
+}
+
+/* .contact-info h4{
+    padding: auto;
+} */
+
+.e-address h4{
+    padding-right: 3rem;
+}
+
+.phone-number h4{
+    padding-right: 2.8rem;
+}
+
+.address h4{
+    padding-right: 2rem;
+}
+
+.contact-info p{
+    text-align: left;
+    width: 12rem;
+}
+
 
 form{
     display: flex;
