@@ -1,14 +1,14 @@
 /* CustomSelect.css */
 .custom-select-container {
     position: relative;
-    width: 15rem; /* Set the desired width */
+    width: 10rem; /* Set the desired width */
     font-family: 'Catamaran', sans-serif;
     z-index: 9999;
   }
 
   .time-select-container {
     position: relative;
-    width: 15rem; /* Set the desired width */
+    width: 10rem; /* Set the desired width */
     font-family: 'Catamaran', sans-serif;
     z-index: 999;
   }
@@ -27,7 +27,6 @@
   }
   
 
-  
   .dropdown {
     position: absolute;
     top: 100%;
@@ -64,4 +63,15 @@
 .option-list {
   max-height: 200px; /* Set the maximum height for the list */
   overflow-y: auto; /* Enable vertical scrolling when the list overflows */
+}
+@media (max-width: 767px) {
+  .custom-select-container, .time-select-container {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .custom-select-container, .time-select-container {
+    width: 15rem;
+  }
+  
 }

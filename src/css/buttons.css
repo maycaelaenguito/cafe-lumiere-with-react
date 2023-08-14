@@ -154,7 +154,7 @@
 
 @media (max-width: 992px){
     .booking-btn a, .booking-btn button{
-        width: 15rem;
+        width: 10rem;
         height: 50px;
         font-size: 15px;
     }

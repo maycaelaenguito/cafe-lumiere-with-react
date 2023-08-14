@@ -27,7 +27,7 @@
     font-family: 'Catamaran', sans-serif;
     background-color: #f5f5fa;
     color: #42180A;
-    width: 15rem;
+    width: 10rem;
 
   }
 
@@ -111,5 +111,15 @@
    
   }
 
+  @media (max-width: 767px) {
+    .react-datepicker__input-container input {
+      width: 15rem;
+    }
+  }
   
+  @media (min-width: 1200px) {
+    .react-datepicker__input-container input {
+      width: 15rem;
+    }
+  }
   

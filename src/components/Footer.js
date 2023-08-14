@@ -36,9 +36,8 @@ const Footer = () => {
                             <h1>Links</h1>
                                 <ul>
                                 <li><Link to="/about/menu">Full Menu</Link></li>
-                                <li><Link to="">Blogs</Link></li>
-                                <li><Link to="">Careers</Link></li>
-                                <li><Link to="">Contact Us</Link></li>
+                                <li><Link to="/blogs">Blogs</Link></li>
+                                <li><Link to="/contactus">Contact Us</Link></li>
                                 </ul>
                         </div>
                         </div>
