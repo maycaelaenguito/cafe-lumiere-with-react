@@ -98,6 +98,14 @@ form button{
     width: 20%;
 }
 
+.contactus-header h3{
+    margin-bottom: 4rem;
+}
+
+.contact-info{
+    margin-bottom: 1.5rem;
+}
+
 @media (max-width: 767px){
     .contactus-nav{
         height: 10vh;

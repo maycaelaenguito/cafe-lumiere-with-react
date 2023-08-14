@@ -1,0 +1,92 @@
+/* CustomDatePicker.css */
+
+/* Style the container div */
+.custom-datepicker {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the calendar input */
+  .react-datepicker {
+    display: inline-block;
+    background-color: #42180A;
+  }
+  
+  /* Style the selected date */
+  .react-datepicker__input-container input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+
+  }
+  
+  /* Style the calendar popup */
+  .react-datepicker-popper {
+    z-index: 1000;
+  }
+  
+  /* Style the day cells */
+  .react-datepicker__day {
+    margin: 0.1em;
+    width: 3em;
+    cursor: pointer;
+    padding: 5px;
+    color: #f5f5fa;
+    border-radius: 0;
+  }
+
+  .react-datepicker__day:hover{
+    border: solid 1px #fff;
+    background-color: #42180A;
+    border-radius: 0;
+  }
+  
+  /* Style the selected day */
+  .react-datepicker__day--selected {
+    border: solid 1px #fff;
+    background-color: #42180A;
+    border-radius: 0;
+  }
+  
+  /* Style the hovered day */
+  .react-datepicker__day--keyboard-selected {
+    background-color: #42180A;
+    
+  }
+  
+  /* Style the day in the currently displayed month */
+  .react-datepicker__day--in-month {
+    color: #000;
+  }
+  
+  /* Style the day outside the currently displayed month */
+  .react-datepicker__day--outside-month {
+    color: #ccc;
+  }
+  
+  /* Style the month and year dropdowns */
+  .react-datepicker__header {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  /* Style the navigation buttons */
+  .react-datepicker__navigation--previous,
+  .react-datepicker__navigation--next {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  /* Style the navigation icons */
+  .react-datepicker__navigation-icon::before {
+  font-size: 1.5em;
+  color: #ff5733; /* Set the desired color here */
+}
+  
+  /* Style the month and year dropdowns */
+  .react-datepicker__current-month,
+  .react-datepicker__current-year {
+    color: #42180A;
+    font-family: 'Catamaran', sans-serif;
+  }
+  

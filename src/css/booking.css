@@ -2,6 +2,11 @@ input, select{
     border: none;
 }
 
-input:hover, select:hover{
-    
+option{
+    background: #42180A;
+    color: #f5f5fa;
+    border: none;
 }
+
+
+  
