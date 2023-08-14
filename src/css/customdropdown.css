@@ -3,7 +3,14 @@
     position: relative;
     width: 15rem; /* Set the desired width */
     font-family: 'Catamaran', sans-serif;
-    z-index: 99999;
+    z-index: 9999;
+  }
+
+  .time-select-container {
+    position: relative;
+    width: 15rem; /* Set the desired width */
+    font-family: 'Catamaran', sans-serif;
+    z-index: 999;
   }
   
   .selected-value {

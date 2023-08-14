@@ -23,13 +23,14 @@
 .contactus-content{
     display: flex;
     flex-direction: column;
+    margin-top: 4rem;
 }
 
 .contactus-booking{
     background-color: #f5f5fa;
     color: #42180A;
     padding: 2rem 3rem;
-    width: 40vw;
+    max-width: 57vw;
 }
 
 .contact-details{
@@ -99,7 +100,7 @@ form button{
 }
 
 .contactus-header h3{
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
 }
 
 .contact-info{

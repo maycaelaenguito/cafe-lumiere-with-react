@@ -9,4 +9,10 @@ option{
 }
 
 
-  
+.booking-wrapper{
+    display: flex;
+}
+
+.booking-itm{
+    margin: 0 1rem;
+}

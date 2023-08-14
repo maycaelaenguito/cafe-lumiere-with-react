@@ -2,9 +2,9 @@ import React, { useState, useRef, useEffect } from "react";
 import "../css/customdropdown.css"; // Import your custom CSS for styling
 
 const TimePicker = () => {
-  const [selectedValue, setSelectedValue] = useState(1); // Initial selected value
+  const [selectedValue, setSelectedValue] = useState(1);
   const [isOpen, setIsOpen] = useState(false);
-  const [dropUp, setDropUp] = useState(false); // Added state to track if dropdown should appear above
+  const [dropUp, setDropUp] = useState(false);
 
   const dropdownRef = useRef(null);
 
@@ -21,6 +21,21 @@ const TimePicker = () => {
         setDropUp(false);
       }
     }
+
+    // Add a click event listener to the document
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        // Clicked outside the dropdown, close it
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
   }, [isOpen]);
 
   const handleChange = (event) => {
@@ -49,15 +64,15 @@ const TimePicker = () => {
     { value: 15, label: "5:00 pm" },
     { value: 16, label: "5:30 pm" },
     { value: 17, label: "6:00 pm" },
-    { value: 17, label: "6:30 pm" },
-    { value: 17, label: "7:00 pm" },
-    { value: 17, label: "7:30 pm" },
-    { value: 17, label: "8:00 pm" },
-    { value: 17, label: "8:30 pm" },
+    { value: 18, label: "6:30 pm" },
+    { value: 19, label: "7:00 pm" },
+    { value: 20, label: "7:30 pm" },
+    { value: 21, label: "8:00 pm" },
+    { value: 22, label: "8:30 pm" },
   ];
 
-  return (
-    <div className={`custom-select-container ${dropUp ? "drop-up" : ""}`} ref={dropdownRef}>
+ return (
+    <div className={`time-select-container ${dropUp ? "drop-up" : ""}`} ref={dropdownRef}>
       <div className="selected-value" onClick={toggleDropdown}>
         {options.find((option) => option.value === selectedValue)?.label}
         <span className={`arrow ${isOpen ? "open" : ""}`}>&#x25BE;</span>
