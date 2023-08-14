@@ -1,7 +1,9 @@
 /* CustomSelect.css */
 .custom-select-container {
     position: relative;
-    width: 150px; /* Set the desired width */
+    width: 15rem; /* Set the desired width */
+    font-family: 'Catamaran', sans-serif;
+    z-index: 99999;
   }
   
   .selected-value {
@@ -14,13 +16,10 @@
   }
   
   .arrow {
-    margin-left: 8px;
-    transition: transform 0.3s;
+    display: none;
   }
   
-  .arrow.open {
-    transform: rotate(180deg);
-  }
+
   
   .dropdown {
     position: absolute;
@@ -33,24 +32,29 @@
     border-top: none;
   }
   
-  ul {
+  .dropdown ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
   
-  li {
+  .dropdown li {
     padding: 8px;
     cursor: pointer;
   }
   
-  li:hover {
+  .dropdown li:hover {
     background-color: #f5f5fa;
     color: #42180A;
   }
   
   .selected {
-    background-color: #f5f5fa;
+    background-color: #ffffffcf;
     color: #42180A;
   }
   
+  /* Add this CSS to your customdropdown.css file */
+.option-list {
+  max-height: 200px; /* Set the maximum height for the list */
+  overflow-y: auto; /* Enable vertical scrolling when the list overflows */
+}

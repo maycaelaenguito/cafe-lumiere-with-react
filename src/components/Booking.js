@@ -1,17 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../css/booking.css';
 import CustomDropdown from './CustomDropdown';
 import CustomCalendar from './CustomCalendar';
-
-
+import TimePicker from './TimePicker';
 
 const Booking = () => {
 
-  const [selectedTime, setSelectedTime] = useState('');
-
-  const handleTimeChange = (event) => {
-    setSelectedTime(event.target.value);
-  };
 
   return (
     <div>
@@ -22,14 +16,8 @@ const Booking = () => {
       <div className='booking-date'>
        <CustomCalendar/>
       </div>
-      <div>
-        <label htmlFor="selectedTime">Time:</label>
-        <input
-          type="time"
-          id="selectedTime"
-          value={selectedTime}
-          onChange={handleTimeChange}
-        />
+      <div className='time-picker'>
+       <TimePicker/>
       </div>
     </div>
   );
