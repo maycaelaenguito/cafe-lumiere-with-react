@@ -4,12 +4,12 @@ import '../css/buttons.css'
 
 const MenuBtn = () => {
   return (
-    <div className='menu menu-btn'>
+    <div className='menu menu-btn menu-menu-btn'>
         <Link to="/about/menu">
-            <button>
-            See Full Menu
-            </button>
-        </Link>
+              <button>
+              See Full Menu
+              </button>
+          </Link>
     </div>
   )
 }

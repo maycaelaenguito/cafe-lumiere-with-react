@@ -4,12 +4,14 @@ import '../css/buttons.css'
 
 const BookNow = () => {
   return (
-    <div className='menu menu-btn'>
-        <Link to="/contactus/booking">
-            <button>
-            Book A Table
-            </button>
-        </Link>
+    <div className='menu menu-btn booking-btn'>
+        
+          <Link to="/contactus/booking">
+              <button>
+              Book A Table
+              </button>
+          </Link>
+
     </div>
   )
 }

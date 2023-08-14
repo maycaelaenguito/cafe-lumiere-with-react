@@ -10,9 +10,36 @@ option{
 
 
 .booking-wrapper{
-    display: flex;
+   display: grid;
 }
 
 .booking-itm{
-    margin: 0 1rem;
+    margin: 1rem;
+}
+
+@media (min-width: 768px){
+    .booking-date {
+        grid-column: 2;
+    }
+    
+    .time-picker{
+        grid-row: 2;
+        grid-column: 1;
+    }
+}
+
+@media (min-width: 992px){
+    .booking-date {
+        grid-column: 2;
+    }
+    
+    .time-picker{
+        grid-row: 1;
+        grid-column: 3;
+    }
+    .book{
+        grid-column: 4;
+        grid-row: 1;
+    }
+    
 }

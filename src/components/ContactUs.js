@@ -24,7 +24,7 @@ const ContactUs = () => {
               </div>
 
             {/* Form */}
-            <div className="contact-details">
+            {/* <div className="contact-details">
             <h3>Reach Us</h3>
             <div className='details'>
               <div className="e-address contact-info">
@@ -52,7 +52,7 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-            </div>
+            </div> */}
 
           </div>
        </div>

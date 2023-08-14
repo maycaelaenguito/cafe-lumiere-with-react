@@ -21,6 +21,18 @@ const CustomDropdown = () => {
         setDropUp(false);
       }
     }
+
+    // Add a mousedown event listener to the document to close the dropdown when clicking outside
+    const handleOutsideClick = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleOutsideClick);
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
   }, [isOpen]);
 
   const handleChange = (event) => {

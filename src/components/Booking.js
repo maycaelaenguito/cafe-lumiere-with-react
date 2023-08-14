@@ -22,9 +22,9 @@ const Booking = () => {
           <div className='time-picker booking-itm'>
           <TimePicker/>
           </div>
-        </div>
-        <div>
+          <div className='book booking-itm'> 
           <BookNow/>
+        </div>
         </div>
      </div>
     </div>
