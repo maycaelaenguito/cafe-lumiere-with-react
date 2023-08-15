@@ -6,7 +6,7 @@ const BookNow = () => {
   return (
     <div className='menu menu-btn booking-btn'>
         
-          <Link to="/contactus/booking">
+          <Link to="https://www.opentable.com/">
               <button>
               Book A Table
               </button>

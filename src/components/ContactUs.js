@@ -16,22 +16,16 @@ const ContactUs = () => {
          <div className='htk'>
           <h1>Book a reservation or connect with us.</h1>
          </div>
-          <div className="contactus-content">
-
+        </div>
+      </div>
+      <div className="contactus-content">
             {/* Booking */}
               <div className="contactus-booking">
                 <div className="booking-container">
                   <Booking/>
                 </div>
               </div>
-
-            {/* Contact Details */}
-    
           </div>
-          
-        </div>
-      </div>
-      
       <div className="contactus-container">
             <div className="contact-wrapper">
               <div className="contact-details">

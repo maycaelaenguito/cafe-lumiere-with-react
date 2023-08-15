@@ -9,7 +9,7 @@ const Booking = () => {
 
   return (
 
-    <div >
+    <div className='booking'>
       <h3>Reserve your table</h3>
      <div>
         <div className='booking-wrapper'>

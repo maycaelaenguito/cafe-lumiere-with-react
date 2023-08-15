@@ -5,10 +5,10 @@
 }
 
 /* Style the container div */
-.custom-datepicker {
+/* .custom-datepicker {
     font-family: 'Catamaran', sans-serif;
     
-  }
+  } */
   
   /* Style the calendar input */
   .react-datepicker {
@@ -25,7 +25,6 @@
     font-size: 16px;
     border-bottom: solid 1px #42180A;
     font-family: 'Catamaran', sans-serif;
-    background-color: #f5f5fa;
     color: #42180A;
     width: 10rem;
 
