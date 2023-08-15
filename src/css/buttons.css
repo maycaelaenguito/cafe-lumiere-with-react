@@ -110,6 +110,11 @@
     z-index: -1;
     transform: skew(45deg);
 }
+.booking-btn a:before{
+    width: 8vw;
+    left: -8vw;
+}
+
 
 .menu-btn button:hover {
     z-index: 2;
@@ -122,14 +127,16 @@
     width: 180%;
 }
 
-
+.booking-btn a, .booking-btn button{
+    min-width: 75vw;
+}
 
   @media (max-width: 350px) {
-    .landscape-btn a, .menu-btn a{
+    .landscape-btn a, .menu-menu-btn a{
         max-width: 135px;
         height: 35px;
     }
-    .landscape-btn button, .menu-btn button{
+    .landscape-btn button, .menu-menu-btn button{
         max-width: 135px;
         height: 35px;
         font-size: 13px;
@@ -157,6 +164,9 @@
 @media (min-width: 568px) {
     .booking-btn a, .booking-btn button{
       min-width: 30vw;
+    }
+    .menu-btn{
+        justify-content: center;
     }
   }
 

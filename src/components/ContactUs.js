@@ -26,7 +26,7 @@ const ContactUs = () => {
                 </div>
               </div>
           </div>
-      <div className="contactus-container">
+        {/* <div className="contactus-container">
             <div className="contact-wrapper">
               <div className="contact-details">
                 <h3>Reach Us</h3>
@@ -58,7 +58,7 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-      </div>
+        </div> */}
       <Footer/>
     </div>
   )

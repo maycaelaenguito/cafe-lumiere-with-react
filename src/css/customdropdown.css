@@ -1,14 +1,14 @@
 /* CustomSelect.css */
 .custom-select-container {
     position: relative;
-    width: 10rem; /* Set the desired width */
+    width: 100%; /* Set the desired width */
     font-family: 'Catamaran', sans-serif;
     z-index: 9999;
   }
 
   .time-select-container {
     position: relative;
-    width: 10rem; /* Set the desired width */
+    width: 100%; /* Set the desired width */
     font-family: 'Catamaran', sans-serif;
     z-index: 999;
   }
