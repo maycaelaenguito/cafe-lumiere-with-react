@@ -6,7 +6,7 @@
 .contactus-header{
     background: rgba(0, 0, 0, 0.456) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691662292/Cafe%20Lumiere/city-4298285_1920_gddfu9.jpg);
     background-blend-mode: darken;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -20,8 +20,8 @@
 .contactus-content{
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
     justify-content: center;
+    margin-top: 3rem;
 }
 
 .contactus-booking{
@@ -74,6 +74,10 @@
 
 .contact-info{
     margin-bottom: 1.5rem;
+}
+
+.booking-container{
+    width: 100%;
 }
 
 @media (max-width: 767px){

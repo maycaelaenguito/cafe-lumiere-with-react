@@ -109,16 +109,20 @@
     color: #f5f5fa;
    
   }
-
-  @media (max-width: 767px) {
+  @media (min-width: 568px) {
+    .react-datepicker__input-container input{
+      min-width: 30vw;
+    }
+  }
+  @media (min-width: 992px) {
     .react-datepicker__input-container input {
-      width: 15rem;
+      min-width: 15vw;
     }
   }
   
   @media (min-width: 1200px) {
     .react-datepicker__input-container input {
-      width: 15rem;
+      min-width: 18vw;
     }
   }
   

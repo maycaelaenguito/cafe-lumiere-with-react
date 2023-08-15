@@ -122,6 +122,8 @@
     width: 180%;
 }
 
+
+
   @media (max-width: 350px) {
     .landscape-btn a, .menu-btn a{
         max-width: 135px;
@@ -152,10 +154,23 @@
     }
 }
 
-@media (max-width: 992px){
+@media (min-width: 568px) {
     .booking-btn a, .booking-btn button{
-        width: 10rem;
+      min-width: 30vw;
+    }
+  }
+
+@media (min-width: 992px){
+    .booking-btn a, .booking-btn button{
+        min-width: 15vw;
         height: 50px;
         font-size: 15px;
     }
 }
+
+@media (min-width: 1200px) {
+    .booking-btn a, .booking-btn button{
+      min-width: 14vw;
+    }
+  }
+  

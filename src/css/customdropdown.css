@@ -64,14 +64,25 @@
   max-height: 200px; /* Set the maximum height for the list */
   overflow-y: auto; /* Enable vertical scrolling when the list overflows */
 }
-@media (max-width: 767px) {
+@media (min-width: 568px) {
+  .custom-select-container, .time-select-container {
+    min-width: 30vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-select-container, .time-select-container {
+    min-width: 15vw;
+  }
+}
+/* @media (max-width: 767px) {
   .custom-select-container, .time-select-container {
     width: 100%;
   }
-}
+} */
 @media (min-width: 1200px) {
   .custom-select-container, .time-select-container {
-    width: 15rem;
+    min-width: 18vw;
   }
   
 }
