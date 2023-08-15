@@ -95,11 +95,6 @@ const Navbar = () => {
               </li>
               <li className="sub-menu"> 
                 <NavLink exact="true" to="/contactus" activeclassname="active">Contact Us</NavLink> 
-                <div id="sub-links">
-                  <ul>
-                    <li><Link to="/contactus/booking">Book Now</Link></li>
-                  </ul>
-                </div>
               </li>
             </ul>
           </div>
