@@ -79,7 +79,7 @@
 
 .contact-info{
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 .contact-details{
