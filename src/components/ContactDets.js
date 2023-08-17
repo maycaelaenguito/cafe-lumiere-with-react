@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/contactus.css';
 import NewsLetter from './NewsLetter';
+import GoogleMaps from './GoogleMaps';
 
 const ContactDets = () => {
   return (
@@ -36,11 +37,18 @@ const ContactDets = () => {
                 </div>
             </div>
         </div>
+        
+
+        {/* Map */}
+        <div className="map">
+            <GoogleMaps />
+        </div>
+
 
         {/* NewsLetter */}
-        <div>
+        {/* <div>
             <NewsLetter/>
-        </div>
+        </div> */}
     </div>
   )
 }

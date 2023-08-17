@@ -60,7 +60,7 @@ const Navbar = () => {
           <div className='nav-menu'>
             <ul id="menu">
               <li className='sub-menu'>
-                <NavLink exact to="/" activeClassName="active" className='parent-links'>
+                <NavLink exact="true" to="/" activeclassname="active" className='parent-links'>
                   Home
                 </NavLink>
                 <div id='sub-links'>

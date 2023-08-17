@@ -11,7 +11,7 @@ const NewsLetter = () => {
         <form action="">
             <input type="text" placeholder='Full Name'/>
             <input type="email" placeholder='Email'/>
-            <SubBtn/>
+            {/* <SubBtn/> */}
         </form>
       </div>
     </div>
