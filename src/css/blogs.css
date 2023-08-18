@@ -44,6 +44,8 @@
 .blogs{
     text-align: center;
     padding: 20px;
+    border-bottom: solid 1px #3A1600;
+    padding-top: 3rem;
 }
 
 .blog-title, .blog-posted{

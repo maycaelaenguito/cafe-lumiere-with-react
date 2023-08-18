@@ -115,6 +115,10 @@
     left: -8vw;
 }
 
+.blg-btn a:before{
+    width: 8vw;
+    left: -8vw;
+}
 
 .menu-btn button:hover {
     z-index: 2;
@@ -130,6 +134,7 @@
 .booking-btn a, .booking-btn button{
     min-width: 75vw;
 }
+
 
   @media (max-width: 350px) {
     .landscape-btn a, .menu-menu-btn a{
