@@ -34,8 +34,6 @@
 }
 
 
-
-
 .contact-info p{
     text-align: left;
     width: 12rem;
@@ -75,8 +73,8 @@
 .contact-details{
     text-align: center;
     font-family: 'Libre Baskerville', serif;
-    color: #f5f5fa;
-    background-color: #42180A;
+    color: #42180A;
+    border: solid 1px #42180A;
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
@@ -99,10 +97,10 @@
 
 .map{
     grid-row: 2;
-    display: flex;
-    justify-content: center;
 
 }
+
+
 
 .cft{
     padding-left: 15px;
