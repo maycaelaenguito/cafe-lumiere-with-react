@@ -116,7 +116,7 @@
 }
 
 .blg-btn a:before{
-    width: 8vw;
+    width: 9vw;
     left: -8vw;
 }
 
@@ -128,7 +128,7 @@
   
 .menu-btn a:hover:before {
     z-index: -1;
-    width: 180%;
+    width: 190%;
 }
 
 .booking-btn a, .booking-btn button{

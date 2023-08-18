@@ -1,8 +1,9 @@
 import React from 'react';
 import Navbar from './Navbar';
 import '../css/blogs.css';
-import BlogsBtn from './BlogsBtn';
+// import BlogsBtn from './BlogsBtn';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 const Blogs = () => {
   return (
@@ -28,7 +29,13 @@ const Blogs = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
               <div className="blogs-btn">
-                <BlogsBtn/>
+                <div className='menu menu-btn blg-btn' style={{marginBottom: '4rem'}}>
+                    <Link to ="/blogs/blog-article-1">
+                            <button>
+                            Read More
+                            </button>
+                    </Link>
+                </div>
               </div>
             </div>
             {/* Second Blog */}
@@ -47,7 +54,13 @@ const Blogs = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur tellus euismod, luctus enim id, venenatis velit. Sed cursus, neque quis vulputate tristique, augue elit consectetur elit. Suspendisse ornare ligula eu semper tempor. Fusce interdum, sapien ac fermentum vehicula, mi enim tincidunt neque, a blandit mi orci a urna. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque congue volutpat elit ac gravida. Aliquam eget dui at felis pellentesque tincidunt.</p>
               </div>
               <div className="blogs-btn">
-                <BlogsBtn/>
+              <div className='menu menu-btn blg-btn' style={{marginBottom: '4rem'}}>
+                    <Link to ="/blogs/blog-article-2">
+                            <button>
+                            Read More
+                            </button>
+                    </Link>
+                </div>
               </div>
             </div>
             {/* Third Blog */}
@@ -66,7 +79,13 @@ const Blogs = () => {
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique nulla ac nisi venenatis, id rhoncus elit tincidunt. Cras mattis nibh vitae dolor.</p>
                 </div>
                 <div className="blogs-btn">
-                  <BlogsBtn/>
+                  <div className='menu menu-btn blg-btn' style={{marginBottom: '4rem'}}>
+                      <Link to ="/blogs/blog-article-3">
+                              <button>
+                              Read More
+                              </button>
+                      </Link>
+                  </div>
                 </div>
             </div>
             {/* Fourth Blog */}
@@ -85,7 +104,13 @@ const Blogs = () => {
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className="blogs-btn">
-                  <BlogsBtn/>
+                  <div className='menu menu-btn blg-btn' style={{marginBottom: '4rem'}}>
+                      <Link to ="/blogs/blog-article-4">
+                              <button>
+                              Read More
+                              </button>
+                      </Link>
+                  </div>
                 </div>
             </div>
             {/* Fifth Blog */}
@@ -104,7 +129,13 @@ const Blogs = () => {
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className="blogs-btn">
-                  <BlogsBtn/>
+                  <div className='menu menu-btn blg-btn' style={{marginBottom: '4rem'}}>
+                      <Link to ="/blogs/blog-article-5">
+                              <button>
+                              Read More
+                              </button>
+                      </Link>
+                  </div>
                 </div>
             </div>
           </div>

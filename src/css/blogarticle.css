@@ -1,0 +1,18 @@
+.blog-article {
+    margin-bottom: 20px;
+  }
+  
+  .blog-article-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .blog-article-content {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .blog-article-image {
+    width: 100%;
+  }
+  
