@@ -34,17 +34,7 @@
 }
 
 
-.e-address h4{
-    padding-right: 3rem;
-}
 
-.phone-number h4{
-    padding-right: 2.8rem;
-}
-
-.address h4{
-    padding-right: 2rem;
-}
 
 .contact-info p{
     text-align: left;
@@ -79,29 +69,64 @@
 
 .contact-info{
     display: flex;
-    justify-content: right;
+    justify-content: space-evenly;
 }
 
 .contact-details{
     text-align: center;
-    width: 80%;
+    font-family: 'Libre Baskerville', serif;
+    color: #f5f5fa;
+    background-color: #42180A;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact-details h3{
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 2rem;
 }
 
 .cnt{
     display: grid;
+    padding-top: 4rem;
 }
 
 .contact-wrapper{
     grid-row: 1;
+
 }
 
 .map{
     grid-row: 2;
     display: flex;
-    justify-content: left;
+    justify-content: center;
+
 }
-.gmap-wrapper{
-    width: 80%;
+
+.cft{
+    padding-left: 15px;
+}
+
+
+
+@media (max-width: 350px){
+    .contact-details h3, .booking h3{
+        font-size: 7vw;
+    }
+    .contact-details h4{
+        font-size: 4vw;
+    }
+    .contact-details p{
+        font-size: 4vw;
+    }
+    .map{
+        width: fit-content;
+    }
+    .details{
+        overflow-x: hidden;
+    }
+    
 }
 
 @media (max-width: 767px){
@@ -120,6 +145,7 @@
     }
     .contact-details{
         padding: 2rem 3rem;
+        width: 80%;
     }
     .contactus-header h1{
         font-size: 50px;
@@ -127,11 +153,20 @@
     .contact-wrapper{
         grid-column: 1;
         grid-row: 1;
+        display: flex;
+        justify-content: right;
     }
     
     .map{
         grid-column: 2;
         grid-row: 1;
+        justify-content: left;
+    }
+    .gmap-wrapper{
+        width: 80%;
+    }
+    .contact-details h3{
+        margin-top: 1rem;
     }
 }
 

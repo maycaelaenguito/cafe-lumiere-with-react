@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css/contactus.css';
-import NewsLetter from './NewsLetter';
 import GoogleMaps from './GoogleMaps';
 
 const ContactDets = () => {
@@ -13,7 +12,7 @@ const ContactDets = () => {
                         <h3>Reach Us</h3>
                         <div className='details'>
                             <div className="e-address contact-info">
-                                <div>
+                                <div className='cft'>
                                     <h4>Email</h4>
                                 </div>
                                 <div>
@@ -21,7 +20,7 @@ const ContactDets = () => {
                                 </div>
                             </div>
                             <div className="phone-number contact-info">
-                                <div>
+                                <div className='cft'>
                                     <h4>Phone</h4>
                                 </div>
                                 <div>
@@ -29,7 +28,7 @@ const ContactDets = () => {
                                 </div>
                             </div>
                             <div className="address contact-info">
-                                <div>
+                                <div className='cft'>
                                     <h4>Address</h4>
                                 </div>
                                 <div>

@@ -27,6 +27,12 @@ option{
     font-weight: 400;
     font-size: 25px;
     text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+@media (max-width: 350px){
+   .booking h3{
+        font-size: 7vw;
+    }
 }
 @media (min-width: 568px){
     .booking-date {
