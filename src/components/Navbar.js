@@ -84,11 +84,11 @@ const Navbar = () => {
                 <NavLink exact="true" to="/blogs" activeclassname="active">Blogs</NavLink>
                <div id="sub-links">
                 <ul>
-                    <li> <Link to="/blogs/blog-one">Coffee Chronicles</Link> </li>
-                    <li> <Link to="/blogs/blog-two">Brewing Bliss</Link> </li>
-                    <li> <Link to="/blogs/blog-three">Pastries</Link> </li>
-                    <li> <Link to="/blogs/blog-four">Caffeine Culture</Link> </li>
-                    <li> <Link to="/blogs/blog-four">Desserts</Link> </li>
+                    <li> <Link to="/blogs/blog-article-1">Coffee Chronicles</Link> </li>
+                    <li> <Link to="/blogs/blog-article-2">Brewing Bliss</Link> </li>
+                    <li> <Link to="/blogs/blog-article-3">Pastries</Link> </li>
+                    <li> <Link to="/blogs/blog-article-4">Caffeine Culture</Link> </li>
+                    <li> <Link to="/blogs/blog-article-5">Desserts</Link> </li>
 
                   </ul>
                </div>
