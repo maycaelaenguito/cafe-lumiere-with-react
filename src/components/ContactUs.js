@@ -4,6 +4,7 @@ import '../css/contactus.css';
 import Booking from './Booking';
 import Footer from './Footer';
 import ContactDets from './ContactDets';
+import BacktoTop from './BacktoTop';
 
 
 const ContactUs = () => {
@@ -29,6 +30,9 @@ const ContactUs = () => {
         <div className='dets-con'>
             <ContactDets/>
         </div>
+      </div>
+      <div className="floating-btn">
+        <BacktoTop />
       </div>
       <Footer/>
     </div>

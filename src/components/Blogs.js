@@ -4,6 +4,7 @@ import '../css/blogs.css';
 // import BlogsBtn from './BlogsBtn';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
+import BacktoTop from './BacktoTop';
 
 const Blogs = () => {
   return (
@@ -139,6 +140,9 @@ const Blogs = () => {
                 </div>
             </div>
           </div>
+      </div>
+      <div className="floating-btn">
+        <BacktoTop />
       </div>
       <Footer/>
     </div>
