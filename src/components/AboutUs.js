@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/aboutus.css';
 import Navbar from './Navbar';
+import '../css/bgslideshow.css'
 
 const AboutUs = () => {
   return (

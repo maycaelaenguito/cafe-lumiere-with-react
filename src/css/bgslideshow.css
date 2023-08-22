@@ -155,7 +155,7 @@
     width: 180%;
   }
 
-.st-middle p{
+.st-middle p, .about-us-container p{
     font-family: 'Bonheur Royale', cursive;
     color: #fff;
     font-size: 3.2rem;
@@ -165,7 +165,7 @@
     .st-top p{
         font-size: 5vw;
     }
-    .st-middle p{
+    .st-middle p, .about-us-container p{
         font-size: 14vw;
     }
     .header-btn a{
@@ -181,7 +181,7 @@
 
 }
 @media (max-width: 567px) and (min-width: 351px) {
-    .st-middle p{
+    .st-middle p, .about-us-container p{
         font-size: 55px;
     }
 }
@@ -194,8 +194,10 @@
     }
 }
 @media screen and (max-width: 991px)and (min-width: 568px){
-    .st-middle p{
+    .st-middle p, .about-us-container p{
         font-size: 70px;
+    }
+    .st-middle p{
         width: 80%;
     }
 }
@@ -207,11 +209,14 @@
     .slide-container{
         height: 100vh;
     }
-    .st-middle p{
+    .st-middle p, .about-us-container p{
         font-size: 100px;
+    }
+    .st-middle p{
         width: 80%;
         margin-top: 6rem;
     }
+
     .st-top{
         font-size: 25px;
     }

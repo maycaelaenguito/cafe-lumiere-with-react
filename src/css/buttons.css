@@ -115,6 +115,10 @@
     left: -8vw;
 }
 
+.blg-btn{
+    margin-top: 3vw;
+}
+
 .blg-btn a:before{
     width: 9vw;
     left: -8vw;
