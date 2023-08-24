@@ -11,6 +11,16 @@ const About = () => {
       <div id='about'>
         <p>About</p>
       </div>
+      <div className="about-header">
+        <div className='a-hder-con'>
+          <div className="a-left-header a-hder-items">
+            <p>Left</p>
+          </div>
+          <div className="a-right-header a-hder-items">
+            <p>Right</p>
+          </div>
+        </div>
+      </div>
     </div>
     
   )

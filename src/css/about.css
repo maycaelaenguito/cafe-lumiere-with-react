@@ -25,3 +25,25 @@
     letter-spacing: .05em;
 }
 
+.a-hder-con{
+    display: grid;
+    gap: 2rem;
+}
+
+.a-hder-items{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+
+@media (min-width: 768px){
+    .a-left-header {
+        grid-column: 1;
+    }
+    .a-right-header {
+        grid-column: 2;
+    }
+}
