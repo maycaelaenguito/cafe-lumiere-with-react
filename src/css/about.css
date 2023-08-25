@@ -28,6 +28,7 @@
 .a-hder-con{
     display: grid;
     gap: 2rem;
+   grid-template-columns: 50vw;
 }
 
 .a-hder-items{
@@ -44,10 +45,20 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.a-left-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.a-header-title{
+    font-family: 'Bonheur Royale', cursive;
+    color: #532300;
+}
 
 @media (min-width: 768px){
     .a-hder-con{
         padding: 2rem 4rem;
+        margin-top: 4rem;
     }
     .a-left-header {
         grid-column: 1;

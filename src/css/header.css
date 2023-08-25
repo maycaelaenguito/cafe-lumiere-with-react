@@ -27,7 +27,7 @@
     align-items: center;
     margin-top: 1rem;
 }
-.header-grid-title p{
+.header-grid-title p, .a-header-title p{
     font-size: 45px;
 }
 .header-grid-description{
@@ -105,7 +105,7 @@
 }
 
 @media (max-width: 280px) {
-    .header-grid-title p{
+    .header-grid-title p, .a-header-title p{
         font-size: 15vw;
     }
     .header-grid-description h3{
@@ -198,7 +198,7 @@
     .header-grid-description p{
         width: 80%;
     }
-    .header-grid-title p{
+    .header-grid-title p, .a-header-title p{
         width: 80%;
     }
     .header-grid-description{
@@ -239,7 +239,7 @@
     .header-grid-description p{
         font-size: 14px;
     }
-    .header-grid-title p{
+    .header-grid-title p, .a-header-title p{
         font-size: 60px;
     }
     .header-grid-title{
@@ -269,7 +269,7 @@
     .header-grid-description p{
         font-size: 17px;
     }
-    .header-grid-title p{
+    .header-grid-title p, .a-header-title p{
         font-size: 70px;
     }
     .header-grid-description h3{
