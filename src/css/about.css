@@ -35,11 +35,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
 }
 
+.a-right-header{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1692959099/Cafe%20Lumiere/restaurant-4011989_robuk1.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 @media (min-width: 768px){
+    .a-hder-con{
+        padding: 2rem 4rem;
+    }
     .a-left-header {
         grid-column: 1;
     }

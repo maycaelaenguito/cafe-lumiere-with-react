@@ -17,7 +17,6 @@ const About = () => {
             <p>Left</p>
           </div>
           <div className="a-right-header a-hder-items">
-            <p>Right</p>
           </div>
         </div>
       </div>
