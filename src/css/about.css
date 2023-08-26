@@ -27,7 +27,6 @@
 
 .a-hder-con{
     display: grid;
-    gap: 2rem;
 }
 
 .a-hder-items{
@@ -36,6 +35,7 @@
     justify-content: center;
     align-items: center;
     text-align: left;
+    margin: 1rem 0;
 }
 
 .a-right-header{
@@ -44,8 +44,20 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 2rem;
 }
-.a-left-header{
+
+.a-left-header2{
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1693062189/Cafe%20Lumiere/people-2561634_1280_a0cnab.jpg);
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+
+}
+
+.a-left-header, .a-right-header2{
     display: flex;
     flex-direction: column;
 }
@@ -69,24 +81,39 @@
 }
 
 @media (min-width: 768px){
+    .a-hder-items{
+        margin: 4rem 0;
+    }
     .a-hder-con{
         padding: 2rem 4rem;
-        margin-top: 4rem;
-        grid-template-columns: 50vw;
+        margin-top: 2rem;
+        grid-template-columns: 100vw, 1fr;
     }
     .a-left-header {
         grid-column: 1;
     }
     .a-right-header {
         grid-column: 2;
-    }
-    .a-header-des{
         width: 90%;
+        display: flex;
+        justify-self: center;
     }
+    .a-right-header2{
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .a-left-header2{
+        grid-row: 2;
+        grid-column: 1;
+        width: 90%;
+        display: flex;
+        justify-self: center;
+    }
+
 }
 
 @media (min-width: 1200px){
-    .a-header-des{
+    .a-left-header .a-header-des{
         width: 80%;
     }
 }

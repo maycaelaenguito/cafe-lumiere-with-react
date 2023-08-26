@@ -33,7 +33,6 @@
 .header-grid-description{
     text-align: left;
     grid-area: hdescription;
-    margin: 1rem 0;
     font-family: 'Catamaran', sans-serif;
 }
 .header-grid-description h3, .a-header-des h3{
@@ -51,7 +50,7 @@
 }
 .header-grid-image img{
     width: 80%;
-    margin-top: 2rem;
+    margin: 1rem 0;
 }
 
 .landscape-coffee{
@@ -209,7 +208,7 @@
         margin-top: 1rem;
     }
     .header-grid-description .sub-description{
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
 }
 @media (min-width: 992px) {

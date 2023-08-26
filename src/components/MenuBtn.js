@@ -9,7 +9,7 @@ const MenuBtn = () => {
               <button>
               See Full Menu
               </button>
-          </Link>
+        </Link>
     </div>
   )
 }
