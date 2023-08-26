@@ -34,14 +34,15 @@
     text-align: left;
     grid-area: hdescription;
     margin: 1rem 0;
-    font-family: 'Basekerville';
-    letter-spacing: .8px;
+    font-family: 'Catamaran', sans-serif;
 }
 .header-grid-description h3{
     font-weight: 500;
     color: rgb(62, 62, 62);
     font-size: 16px;
     line-height: 1.7;
+    font-family: 'Basekerville';
+
 }
 .header-grid-description p{
     color: rgb(99, 99, 99);
@@ -89,6 +90,9 @@
     font-size: 30px;
 }
 
+.sub-description{
+    padding: 1rem 0;
+}
 
 @media (max-width: 280px){
     .landscape-coffee h1{
@@ -231,7 +235,7 @@
         margin-bottom: 3rem;
     }
     .header-grid-description h3{
-        font-size: 17px;
+        font-size: 20px;
     }
     .header-grid-description .sub-description{
         margin-top: 1rem;
@@ -273,6 +277,6 @@
         font-size: 70px;
     }
     .header-grid-description h3{
-        font-size: 21px;
+        font-size: 23px;
     }
 }
