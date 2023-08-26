@@ -35,12 +35,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 .a-right-header{
     background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1692959099/Cafe%20Lumiere/restaurant-4011989_robuk1.jpg);
-    height: 60vh;
+    height: 75vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,6 +57,17 @@
     text-align: center;
 }
 
+.a-header-sub{
+    margin: 1rem 0;
+}
+
+.a-header-des{
+    width: 90%;
+}
+.a-header-des p{
+    font-family: 'Catamaran', sans-serif;
+}
+
 @media (min-width: 768px){
     .a-hder-con{
         padding: 2rem 4rem;
@@ -68,5 +79,14 @@
     }
     .a-right-header {
         grid-column: 2;
+    }
+    .a-header-des{
+        width: 90%;
+    }
+}
+
+@media (min-width: 1200px){
+    .a-header-des{
+        width: 80%;
     }
 }
