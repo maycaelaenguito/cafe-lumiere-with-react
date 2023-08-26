@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-family: 'Bonheur Royale', cursive;
+    font-family: 'Bonheur Royale';
     letter-spacing: .05em;
 }
 
@@ -76,10 +76,24 @@
 .a-header-des{
     width: 90%;
 }
-.a-header-des p{
-    font-family: 'Catamaran', sans-serif;
+
+.a-header3{
+    text-align: center;
 }
 
+.bgrcon{
+    display: grid;
+    gap: 3rem;
+}
+
+.pick-description{
+    display: flex;
+    justify-content: center;
+}
+
+.pick-item p{
+    width: 65%;
+}
 @media (min-width: 768px){
     .a-hder-items{
         margin: 4rem 0;
@@ -108,6 +122,22 @@
         width: 90%;
         display: flex;
         justify-self: center;
+    }
+    .best-one{
+        grid-column: 1;
+    }
+    .best-two{
+        grid-column: 2;
+    }
+    .best-three{
+        grid-column: 3;
+    }
+    .pick-item p{
+        width: 70%;
+    }
+    .a-header3{
+        grid-row: 3;
+        grid-column: span 2;
     }
 
 }

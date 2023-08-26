@@ -43,10 +43,11 @@
     font-family: 'Basekerville';
 
 }
-.header-grid-description p, .a-header-des p{
+.header-grid-description p, .a-header-des p, .pick-item p{
     color: rgb(99, 99, 99);
     font-size: 14px;
     line-height: 1.3;
+    font-family: 'Catamaran', sans-serif;
 }
 .header-grid-image img{
     width: 80%;
