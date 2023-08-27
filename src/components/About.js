@@ -4,6 +4,7 @@ import '../css/about.css';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
 import '../css/menucomponent.css';
+import BacktoTop from './BacktoTop';
 
 const About = () => {
   return (
@@ -121,6 +122,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <BacktoTop/>
       {/* Footer */}
       <Footer/>
     </div>

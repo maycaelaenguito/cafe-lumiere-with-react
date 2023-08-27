@@ -79,6 +79,7 @@
 
 .a-header3{
     text-align: center;
+    margin: 4rem 0;
 }
 
 .bgrcon{
@@ -93,6 +94,26 @@
 
 .pick-item p{
     width: 65%;
+}
+
+.pick-item h4{
+    font-size: 25px;
+    margin: 1rem 0;
+}
+
+.a-header3 h1{
+    margin: 1rem 0;
+}
+
+.pick-item h4, .a-header3 h1{
+    font-family: 'Basekerville';
+    font-weight: 500;
+    color: #532300;
+}
+
+.ah3des p{
+    font-size: 20px;
+    color: rgb(99, 99, 99);
 }
 
 .ah3des{
@@ -193,6 +214,9 @@
     }
     .ah3des p{
         width: 40%;
+    }
+    .a-header3 h1{
+        font-size: 40px;
     }
 
 }
