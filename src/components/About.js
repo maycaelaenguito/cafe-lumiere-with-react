@@ -68,7 +68,7 @@ const About = () => {
               <div>
                 <h1>Favorite Picks</h1>
                 <div className='ah3des'>
-                  <p>Explore the best in vegan cuisine, crafted cocktails, and exquisite delicacies. From avocado sushi to jackfruit tacos, indulge in plant-based perfection. Sip on artisanal drinks and savor vegan chocolates, creating an unforgettable experience. </p>
+                  <p>Explore best picks in vegan cuisine, crafted cocktails, and exquisite delicacies.  </p>
                 </div>
               </div>
               <div className='bgrcon'>

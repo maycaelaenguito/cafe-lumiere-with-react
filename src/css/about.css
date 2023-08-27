@@ -67,6 +67,7 @@
     color: #532300;
     width: 100%;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .a-header-sub{
@@ -85,6 +86,7 @@
 .bgrcon{
     display: grid;
     gap: 3rem;
+    margin: 2rem 0;
 }
 
 .pick-description{
@@ -117,8 +119,9 @@
 
 .ah3des p{
     font-size: 20px;
-    color: rgb(99, 99, 99);
-    padding: 1rem 0;
+    color: rgba(55, 55, 55, 0.899);
+    margin-bottom: 2rem;
+    width: 70%;
 }
 
 .ah3des{
@@ -219,7 +222,8 @@
         grid-column: span 2;
     }
     .ah3des p{
-        width: 70%;
+        width: 50%;
+        font-size: 23px;
     }
     .a-header3 h1{
         font-size: 40px;
@@ -229,7 +233,7 @@
 
 @media (min-width: 1200px){
     .ah3des p{
-        width: 50%;
+        width: 40%;
     }
     .a-left-header .a-header-des{
         width: 80%;
