@@ -79,7 +79,7 @@
 
 .a-header3{
     text-align: center;
-    margin: 4rem 0;
+    margin: 3rem 0;
 }
 
 .bgrcon{
@@ -101,6 +101,10 @@
     margin: 1rem 0;
 }
 
+.pick-item a{
+    text-decoration: none;
+}
+
 .a-header3 h1{
     margin: 1rem 0;
 }
@@ -114,18 +118,20 @@
 .ah3des p{
     font-size: 20px;
     color: rgb(99, 99, 99);
+    padding: 1rem 0;
 }
 
 .ah3des{
     display: flex;
     justify-content: center;
     font-weight: 400;
+    margin: 1rem 0;
 }
 
 .pick-container{
     min-height: 35vh;
     min-width: 70%;
-    margin: 2rem;
+    margin: 0 1rem;
     overflow: hidden;
     position: relative;
 	cursor: pointer;
@@ -206,14 +212,14 @@
         grid-column: 3;
     }
     .pick-item p{
-        width: 70%;
+        width: 100%;
     }
     .a-header3{
         grid-row: 3;
         grid-column: span 2;
     }
     .ah3des p{
-        width: 40%;
+        width: 70%;
     }
     .a-header3 h1{
         font-size: 40px;
@@ -222,7 +228,13 @@
 }
 
 @media (min-width: 1200px){
+    .ah3des p{
+        width: 50%;
+    }
     .a-left-header .a-header-des{
         width: 80%;
+    }
+    .pick-item p{
+        width: 70%;
     }
 }

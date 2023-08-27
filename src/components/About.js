@@ -81,7 +81,9 @@ const About = () => {
                     </Link>
                   </div>
                   <div className='pick-item'> 
-                    <h4>Vegan</h4>
+                   <Link>
+                      <h4>Vegan</h4>
+                   </Link>
                     <div className="pick-description">
                         <p> Curabitur varius quam id massa lobortis, eget vestibulum felis rhoncus. Vivamus quis justo at urna tincidunt tincidunt. Duis euismod, libero sit amet suscipit ultrices, turpis ex tincidunt dolor. </p>
                       </div>
@@ -96,7 +98,9 @@ const About = () => {
                     </Link>
                   </div>
                   <div className='pick-item'>
-                    <h4>Cocktails</h4>
+                      <Link>
+                        <h4>Cocktails</h4>
+                      </Link>
                       <div className="pick-description">
                         <p> Curabitur varius quam id massa lobortis, eget vestibulum felis rhoncus. Vivamus quis justo at urna tincidunt tincidunt. Duis euismod, libero sit amet suscipit ultrices, turpis ex tincidunt dolor. </p>
                       </div>
@@ -111,7 +115,9 @@ const About = () => {
                     </Link>
                   </div>
                   <div className='pick-item'>
-                    <h4>Delicacies</h4>
+                    <Link>
+                      <h4>Delicacies</h4>
+                    </Link>
                       <div className="pick-description">
                         <p> Curabitur varius quam id massa lobortis, eget vestibulum felis rhoncus. Vivamus quis justo at urna tincidunt tincidunt. Duis euismod, libero sit amet suscipit ultrices, turpis ex tincidunt dolor. </p>
                       </div>
