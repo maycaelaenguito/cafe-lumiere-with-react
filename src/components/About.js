@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import '../css/about.css';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
+import '../css/menucomponent.css';
 
 const About = () => {
   return (
@@ -65,12 +66,18 @@ const About = () => {
             <div>
               <div>
                 <h1>Favorite Picks</h1>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec interdum ipsum. Nullam luctus felis vel neque vehicula, quis varius eros varius. </h3>
+                <div className='ah3des'>
+                  <p>Explore the best in vegan cuisine, crafted cocktails, and exquisite delicacies. From avocado sushi to jackfruit tacos, indulge in plant-based perfection. Sip on artisanal drinks and savor vegan chocolates, creating an unforgettable experience. </p>
+                </div>
               </div>
               <div className='bgrcon'>
                 <div className='best-one'>
                   {/* Image */}
-                  <div className="best-pick-img">
+                  <div className="pick-container">
+                    <Link to="/about/menu/favorites">
+                      <div className="vegan about-menu">
+                      </div>
+                    </Link>
                   </div>
                   <div className='pick-item'> 
                     <h4>Vegan</h4>
@@ -81,7 +88,11 @@ const About = () => {
                 </div>
                 <div className='best-two'>
                    {/* Image */}
-                  <div className="best-pick-img">
+                   <div className="pick-container">
+                    <Link to="/about/menu/favorites">
+                      <div className="cocktails about-menu">
+                      </div>
+                    </Link>
                   </div>
                   <div className='pick-item'>
                     <h4>Cocktails</h4>
@@ -92,7 +103,11 @@ const About = () => {
                 </div>
                 <div className='best-three'>
                    {/* Image */}
-                  <div className="best-pick-img">
+                   <div className="pick-container">
+                    <Link to="/about/menu/favorites">
+                      <div className="delicacies about-menu">
+                      </div>
+                    </Link>
                   </div>
                   <div className='pick-item'>
                     <h4>Delicacies</h4>

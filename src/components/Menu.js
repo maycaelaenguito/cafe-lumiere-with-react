@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/menucomponent.css';
 import MenuComponent from './MenuComponent';
 import Navbar from './Navbar';
 

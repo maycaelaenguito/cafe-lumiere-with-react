@@ -94,6 +94,58 @@
 .pick-item p{
     width: 65%;
 }
+
+.ah3des{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.pick-container{
+    min-height: 35vh;
+    min-width: 70%;
+    margin: 2rem;
+    overflow: hidden;
+    position: relative;
+	cursor: pointer;
+}
+
+.about-menu{
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.vegan{
+    background: rgba(0, 0, 0, 0.162) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1693115963/Cafe%20Lumiere/soup-2006317_1280_uoj3fp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cocktails{
+    background: rgba(0, 0, 0, 0.162) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1693115963/Cafe%20Lumiere/drink-4188629_1920_fz8r8a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.delicacies{
+    background: rgba(0, 0, 0, 0.162) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1693115963/Cafe%20Lumiere/food-3148755_1920_c0zn1z.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
 @media (min-width: 768px){
     .a-hder-items{
         margin: 4rem 0;
@@ -138,6 +190,9 @@
     .a-header3{
         grid-row: 3;
         grid-column: span 2;
+    }
+    .ah3des p{
+        width: 40%;
     }
 
 }

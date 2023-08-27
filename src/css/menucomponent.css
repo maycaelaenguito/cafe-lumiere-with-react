@@ -14,21 +14,6 @@
     padding: 3rem 0;
 }
 
-/* .menu-title{
-    font-family: 'Bonheur Royale', cursive;
-    color: #35170C;
-    font-size: 25px;
-    justify-content: center;
-    width: 80%;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
-.title-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 .menu-category{
     display: grid;
     grid-template-areas: 
@@ -77,7 +62,7 @@
     font-style: normal;
     letter-spacing: 2px;
 }
-.category-container:hover .food-menu, .category-container:focus .food-menu {
+.category-container:hover .food-menu, .category-container:focus .food-menu, .pick-container:hover .about-menu, .pick-container:focus .about-menu {
     -ms-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -webkit-transform: scale(1.05);
@@ -85,7 +70,7 @@
     transform: scale(1.05);
 }
 
-.category-container:hover .food-menu:before, .category-container:focus .food-menu:before {
+.category-container:hover .food-menu:before, .category-container:focus .food-menu:before, .pick-container:hover .about-menu:before, .pick-container:focus .about-menu:before {
     display: block;
 }
 
@@ -93,7 +78,7 @@
     display: block;
 }
 
-.food-menu:before {
+.food-menu:before, .about-menu:before {
     content: "";
     display: none;
     height: 100%;
@@ -101,10 +86,13 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.food-menu:before{
     background-color: rgba(0, 0, 0, 0.383);
 }
 
-.coffee, .food, .drinks, .desserts{
+.coffee, .food, .drinks, .desserts, .vegan, .delicacies, .cocktails{
     background-blend-mode: darken;
 }
 
