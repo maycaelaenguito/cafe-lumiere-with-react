@@ -21,3 +21,39 @@
     width: 100%;
 }
 
+.team-item{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items:flex-end;
+    overflow: hidden;
+    background: url("https://images.unsplash.com/photo-1555489400-df7b0ded356d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    width:100%;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.582);
+    color: white;
+    transform: translateY(100%);
+    transition: all 0.35s ease;
+}
+
+.card:hover .content{
+    transform: translateY(0);
+}
+
+h3{
+    font-size: 30px;
+}
