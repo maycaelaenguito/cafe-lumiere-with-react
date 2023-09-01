@@ -23,36 +23,48 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className="team-profile">
-            <div class="card">
-              <div class="content">
-                  <h3>Lily Green</h3>
+              <div className='card-wrapper'>
+                <div class="card">
+                  <div class="content">
+                      <h3>Lily Green</h3>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                  <h3>Lily Green</h3>
+              <div className='card-wrapper'>
+                <div class="card">
+                  <div class="content">
+                      <h3>Lily Green</h3>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                  <h3>Lily Green</h3>
+              <div className='card-wrapper'>
+                <div class="card">
+                  <div class="content">
+                      <h3>Lily Green</h3>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                  <h3>Lily Green</h3>
+              <div className='card-wrapper'>
+                <div class="card">
+                  <div class="content">
+                      <h3>Lily Green</h3>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                  <h3>Lily Green</h3>
+              <div className='card-wrapper'>
+                <div class="card">
+                  <div class="content">
+                      <h3>Lily Green</h3>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                  <h3>Lily Green</h3>
+              <div className='card-wrapper'>
+                <div class="card">
+                  <div class="content">
+                      <h3>Lily Green</h3>
+                  </div>
+                </div>
               </div>
-            </div>
             </div>
           </div>
         </div>

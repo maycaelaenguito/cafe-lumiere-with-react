@@ -26,9 +26,13 @@
     justify-content: center;
 }
 
+.card-wrapper{
+    margin: 1rem;
+}
+
 .card{
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     display: flex;
     align-items:flex-end;
     overflow: hidden;
@@ -56,4 +60,10 @@
 
 h3{
     font-size: 30px;
+}
+
+.team-profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
