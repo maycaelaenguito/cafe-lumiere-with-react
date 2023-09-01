@@ -23,52 +23,137 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className="team-profile">
-              <div className='card-wrapper'>
-                <div class="card">
-                  <div class="content">
-                      <h3>Lily Green</h3>
-                  </div>
+              {/*  */}
+              <div class="team-member">
+                <div class="team-img">
+                  <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt=""/>
+                    <div class="overlay">
+                      <div class="team-details">
+                        <p>
+                          Our web design team will spend time with our digital marketing team.
+                        </p>
+                        <div class="socials mt-20">
+                          <a href="sgs"><i class="fa fa-facebook"></i></a>
+                          <a href="sgs"><i class="fa fa-twitter"></i></a>
+                          <a href="sgs"><i class="fa fa-google-plus"></i></a>
+                          <a href="sgs"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
                 </div>
+                  <h6 class="team-title">John Marshall</h6>
+                  <span>Designer</span>
               </div>
-              <div className='card-wrapper'>
-                <div class="card">
-                  <div class="content">
-                      <h3>Lily Green</h3>
-                  </div>
+              {/*  */}
+              <div class="team-member">
+                <div class="team-img">
+                  <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt=""/>
+                    <div class="overlay">
+                      <div class="team-details">
+                        <p>
+                          Our web design team will spend time with our digital marketing team.
+                        </p>
+                        <div class="socials mt-20">
+                          <a href="sgs"><i class="fa fa-facebook"></i></a>
+                          <a href="sgs"><i class="fa fa-twitter"></i></a>
+                          <a href="sgs"><i class="fa fa-google-plus"></i></a>
+                          <a href="sgs"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
                 </div>
+                  <h6 class="team-title">John Marshall</h6>
+                  <span>Designer</span>
               </div>
-              <div className='card-wrapper'>
-                <div class="card">
-                  <div class="content">
-                      <h3>Lily Green</h3>
-                  </div>
+              {/*  */}
+              <div class="team-member">
+                <div class="team-img">
+                  <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt=""/>
+                    <div class="overlay">
+                      <div class="team-details">
+                        <p>
+                          Our web design team will spend time with our digital marketing team.
+                        </p>
+                        <div class="socials mt-20">
+                          <a href="sgs"><i class="fa fa-facebook"></i></a>
+                          <a href="sgs"><i class="fa fa-twitter"></i></a>
+                          <a href="sgs"><i class="fa fa-google-plus"></i></a>
+                          <a href="sgs"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
                 </div>
+                  <h6 class="team-title">John Marshall</h6>
+                  <span>Designer</span>
               </div>
-              <div className='card-wrapper'>
-                <div class="card">
-                  <div class="content">
-                      <h3>Lily Green</h3>
-                  </div>
+              {/*  */}
+              <div class="team-member">
+                <div class="team-img">
+                  <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt=""/>
+                    <div class="overlay">
+                      <div class="team-details">
+                        <p>
+                          Our web design team will spend time with our digital marketing team.
+                        </p>
+                        <div class="socials mt-20">
+                          <a href="sgs"><i class="fa fa-facebook"></i></a>
+                          <a href="sgs"><i class="fa fa-twitter"></i></a>
+                          <a href="sgs"><i class="fa fa-google-plus"></i></a>
+                          <a href="sgs"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
                 </div>
+                  <h6 class="team-title">John Marshall</h6>
+                  <span>Designer</span>
               </div>
-              <div className='card-wrapper'>
-                <div class="card">
-                  <div class="content">
-                      <h3>Lily Green</h3>
-                  </div>
+              {/*  */}
+              <div class="team-member">
+                <div class="team-img">
+                  <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt=""/>
+                    <div class="overlay">
+                      <div class="team-details">
+                        <p>
+                          Our web design team will spend time with our digital marketing team.
+                        </p>
+                        <div class="socials mt-20">
+                          <a href="sgs"><i class="fa fa-facebook"></i></a>
+                          <a href="sgs"><i class="fa fa-twitter"></i></a>
+                          <a href="sgs"><i class="fa fa-google-plus"></i></a>
+                          <a href="sgs"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
                 </div>
+                  <h6 class="team-title">John Marshall</h6>
+                  <span>Designer</span>
               </div>
-              <div className='card-wrapper'>
-                <div class="card">
-                  <div class="content">
-                      <h3>Lily Green</h3>
-                  </div>
+              {/*  */}
+              <div class="team-member">
+                <div class="team-img">
+                  <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt=""/>
+                    <div class="overlay">
+                      <div class="team-details">
+                        <p>
+                          Our web design team will spend time with our digital marketing team.
+                        </p>
+                        <div class="socials mt-20">
+                          <a href="sgs"><i class="fa fa-facebook"></i></a>
+                          <a href="sgs"><i class="fa fa-twitter"></i></a>
+                          <a href="sgs"><i class="fa fa-google-plus"></i></a>
+                          <a href="sgs"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
                 </div>
+                  <h6 class="team-title">John Marshall</h6>
+                  <span>Designer</span>
+              </div>
+      
               </div>
             </div>
           </div>
         </div>
-    </div>
   )
 }
 
