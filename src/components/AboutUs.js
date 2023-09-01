@@ -28,6 +28,31 @@ const AboutUs = () => {
                   <h3>Lily Green</h3>
               </div>
             </div>
+            <div class="card">
+              <div class="content">
+                  <h3>Lily Green</h3>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                  <h3>Lily Green</h3>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                  <h3>Lily Green</h3>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                  <h3>Lily Green</h3>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                  <h3>Lily Green</h3>
+              </div>
+            </div>
             </div>
           </div>
         </div>
