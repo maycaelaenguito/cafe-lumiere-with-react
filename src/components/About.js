@@ -72,7 +72,7 @@ const About = () => {
                 </div>
               </div>
               <div className='bgrcon'>
-                <div className='best-one'>
+                <div className='best best-one'>
                   {/* Image */}
                   <div className="pick-container">
                     <Link to="/about/menu/favorites">
@@ -89,7 +89,7 @@ const About = () => {
                       </div>
                   </div>
                 </div>
-                <div className='best-two'>
+                <div className='best best-two'>
                    {/* Image */}
                    <div className="pick-container">
                     <Link to="/about/menu/favorites">
@@ -106,7 +106,7 @@ const About = () => {
                       </div>
                   </div>
                 </div>
-                <div className='best-three'>
+                <div className='best best-three'>
                    {/* Image */}
                    <div className="pick-container">
                     <Link to="/about/menu/favorites">
