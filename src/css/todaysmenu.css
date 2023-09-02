@@ -1,0 +1,48 @@
+.tmenu-title{
+    padding: 0 2rem;
+
+
+}
+
+.tmenu-wrapper{
+    display: grid;
+}
+
+.tmenu-title li{
+    list-style: none;
+}
+
+.tmenu img{
+    width: 100%;
+}
+
+.tmenu-img1{
+    grid-row: 1;
+}
+
+.tmenu-title1{
+    grid-row: 2;
+}
+
+.tmenu-img2{
+    grid-row: 3;
+}
+
+.tmenu-title2{
+    grid-row: 4;
+}
+
+.tmenu-img3{
+    grid-row: 5;
+}
+
+.tmenu-title3{
+    grid-row: 6;
+}
+
+@media (min-width: 768px) {
+    .tmenu-img1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+}

@@ -25,11 +25,11 @@ const AboutUs = () => {
             </div>
             <div className="team-profile">
               {/*  */}
-              <div class="team-member">
-                <div class="team-img">
+              <div className="team-member">
+                <div className="team-img">
                   <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1693635111/Cafe%20Lumiere/5_rqcj56.png" alt=""/>
-                    <div class="overlay">
-                      <div class="team-details">
+                    <div className="overlay">
+                      <div className="team-details">
                         <h1>Michael Patel</h1>
                         <p>Owner</p>
                       </div>
@@ -38,11 +38,11 @@ const AboutUs = () => {
                   
               </div>
               {/*  */}
-              <div class="team-member">
-                <div class="team-img">
+              <div className="team-member">
+                <div className="team-img">
                   <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1693635111/Cafe%20Lumiere/6_lr84jp.png" alt=""/>
-                    <div class="overlay">
-                      <div class="team-details">
+                    <div className="overlay">
+                      <div className="team-details">
                         <h1>Sarah Johnson</h1>
                         <p>Co-Owner</p>
                       </div>
@@ -51,11 +51,11 @@ const AboutUs = () => {
                   
               </div>
               {/*  */}
-              <div class="team-member">
-                <div class="team-img">
+              <div className="team-member">
+                <div className="team-img">
                 <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1693635111/Cafe%20Lumiere/1_ytpnwa.png" alt=""/>
-                    <div class="overlay">
-                      <div class="team-details">
+                    <div className="overlay">
+                      <div className="team-details">
                         <h1>Daniel Mitchell</h1>
                         <p>Head-Cook</p>
                       </div>
@@ -64,11 +64,11 @@ const AboutUs = () => {
                   
               </div>
               {/*  */}
-              <div class="team-member">
-                <div class="team-img">
+              <div className="team-member">
+                <div className="team-img">
                   <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1693635110/Cafe%20Lumiere/4_shiayl.png" alt=""/>
-                    <div class="overlay">
-                      <div class="team-details">
+                    <div className="overlay">
+                      <div className="team-details">
                         <h1>Emily Davis</h1>
                         <p>Assistant Cook</p>
                       </div>
@@ -77,11 +77,11 @@ const AboutUs = () => {
                   
               </div>
               {/*  */}
-              <div class="team-member">
-                <div class="team-img">
+              <div className="team-member">
+                <div className="team-img">
                   <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1693635110/Cafe%20Lumiere/2_c0jhns.png" alt=""/>
-                    <div class="overlay">
-                      <div class="team-details">
+                    <div className="overlay">
+                      <div className="team-details">
                         <h1>Donald Martin</h1>
                         <p>Barista</p>
                       </div>
@@ -89,11 +89,11 @@ const AboutUs = () => {
                 </div>
               </div>
               {/*  */}
-              <div class="team-member">
-                  <div class="team-img">
+              <div className="team-member">
+                  <div className="team-img">
                     <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1693635110/Cafe%20Lumiere/3_czyvp8.png" alt=""/>
-                      <div class="overlay">
-                        <div class="team-details">
+                      <div className="overlay">
+                        <div className="team-details">
                           <h1>Olivia Anderson</h1>
                           <p>Server</p>
                         </div>

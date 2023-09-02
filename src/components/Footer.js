@@ -69,7 +69,6 @@ const Footer = () => {
                     <p title='Hello'>© 2023 <Link to='/'>Maycaela</Link>. <span>All rights reserved.</span></p>
                 </div>
                 <div id='open-hours'>
-
                 </div>
             </div>
        </div>

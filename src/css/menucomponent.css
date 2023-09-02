@@ -4,14 +4,10 @@
     box-sizing: border-box;
 }
 
-.menu-component{
-    margin-top: 2rem;
-}
-
 .menu-container{
     width: 100%;
     height: auto;
-    padding: 3rem 0;
+    padding: 1rem 0;
 }
 
 .menu-category{
