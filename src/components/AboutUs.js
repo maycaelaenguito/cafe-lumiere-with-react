@@ -26,7 +26,7 @@ const AboutUs = () => {
               {/*  */}
               <div class="team-member">
                 <div class="team-img">
-                  <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt=""/>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1693635111/Cafe%20Lumiere/5_rqcj56.png" alt=""/>
                     <div class="overlay">
                       <div class="team-details">
                         <p>
@@ -41,13 +41,12 @@ const AboutUs = () => {
                       </div>
                     </div>
                 </div>
-                  <h6 class="team-title">John Marshall</h6>
-                  <span>Designer</span>
+                  
               </div>
               {/*  */}
               <div class="team-member">
                 <div class="team-img">
-                  <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt=""/>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1693635111/Cafe%20Lumiere/6_lr84jp.png" alt=""/>
                     <div class="overlay">
                       <div class="team-details">
                         <p>
@@ -62,13 +61,12 @@ const AboutUs = () => {
                       </div>
                     </div>
                 </div>
-                  <h6 class="team-title">John Marshall</h6>
-                  <span>Designer</span>
+                  
               </div>
               {/*  */}
               <div class="team-member">
                 <div class="team-img">
-                  <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt=""/>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1693635110/Cafe%20Lumiere/3_czyvp8.png" alt=""/>
                     <div class="overlay">
                       <div class="team-details">
                         <p>
@@ -83,13 +81,12 @@ const AboutUs = () => {
                       </div>
                     </div>
                 </div>
-                  <h6 class="team-title">John Marshall</h6>
-                  <span>Designer</span>
+                  
               </div>
               {/*  */}
               <div class="team-member">
                 <div class="team-img">
-                  <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt=""/>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1693635110/Cafe%20Lumiere/4_shiayl.png" alt=""/>
                     <div class="overlay">
                       <div class="team-details">
                         <p>
@@ -104,13 +101,12 @@ const AboutUs = () => {
                       </div>
                     </div>
                 </div>
-                  <h6 class="team-title">John Marshall</h6>
-                  <span>Designer</span>
+                  
               </div>
               {/*  */}
               <div class="team-member">
                 <div class="team-img">
-                  <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt=""/>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1693635111/Cafe%20Lumiere/1_ytpnwa.png" alt=""/>
                     <div class="overlay">
                       <div class="team-details">
                         <p>
@@ -125,13 +121,12 @@ const AboutUs = () => {
                       </div>
                     </div>
                 </div>
-                  <h6 class="team-title">John Marshall</h6>
-                  <span>Designer</span>
+                  
               </div>
               {/*  */}
               <div class="team-member">
                 <div class="team-img">
-                  <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt=""/>
+                  <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1693635110/Cafe%20Lumiere/2_c0jhns.png" alt=""/>
                     <div class="overlay">
                       <div class="team-details">
                         <p>
@@ -146,8 +141,7 @@ const AboutUs = () => {
                       </div>
                     </div>
                 </div>
-                  <h6 class="team-title">John Marshall</h6>
-                  <span>Designer</span>
+                  
               </div>
       
               </div>
