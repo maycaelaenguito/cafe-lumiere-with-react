@@ -60,7 +60,7 @@
   }
   
   .overlay {
-    background-color: rgba(20,20,20,.7);
+    background-color: rgba(20, 20, 20, 0.29);
     position: absolute;
     top: 0;
     width: 100%;
@@ -85,6 +85,8 @@
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    color: #fff;
+    text-align: center;
   }
 
   .team-img{
@@ -92,13 +94,19 @@
     height: 400px;
   }
   
-  .team-details p {
-    color: #fff;
+  .team-details h1{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: lighter;
   }
   
+  .team-details p{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+  }
+
   .team-img:hover .team-details {
     opacity: 1;
-    margin-top: -80px;
+    margin-top: 80px;
   }
   
   .team-img:hover .overlay {
