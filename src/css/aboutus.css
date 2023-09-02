@@ -7,6 +7,7 @@
 .about-us-container{
     background: rgba(0, 0, 0, 0.306) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691056824/Cafe%20Lumiere/people-g345ea159f_1920_ja0ewt.jpg);
     background-blend-mode: darken;
+    background-position: center top;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -24,6 +25,7 @@
 .team-item{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .card-wrapper{
@@ -94,14 +96,34 @@
     height: 400px;
   }
   
-  .team-details h1{
+  .team-details h1, .team-ttl h1{
     font-family: 'Libre Baskerville', serif;
     font-weight: lighter;
   }
   
-  .team-details p{
+
+
+  .team-ttl h1{
+    font-size: 40px;
+    color: #3A1600;
+    padding: 1rem 0;
+    margin-top: 5rem;
+    
+  }
+
+  .team-details p, .team-desc p{
     font-family: 'Catamaran', sans-serif;
+  }
+  
+  .team-details p{
     font-weight: bold;
+  }
+
+  .team-desc p{
+    font-size: 18px;
+    color: #000000a5;
+    margin-bottom: 4rem;
+    width: 80%;
   }
 
   .team-img:hover .team-details {
@@ -119,5 +141,11 @@
     }
     .team-img{
       width: 300px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .team-desc p{
+      width: 50%;
     }
   }
