@@ -19,12 +19,12 @@ const TodaysMenu = () => {
                 <div className="menulist">
                   <ul>
                     <div>
-                      <li>
-                        <span>Mediterranean Chicken Salad</span> 
-                        <span className='tmdash'></span>
-                        <span>300</span></li>
+                      <li>Mediterranean Chicken Salad<span className='tmdash'></span>300</li>
+                      <p>chicken, mixed Greens, tomatoes, olives</p>
                       <li>French Croque Monsieur <span className='tmdash'></span>300</li>
-                      <li>Italian Truffle Mushroom Risotto<span className='tmdash'></span>350</li>
+                      <p>bread, ham, cheese, béchamel sauce</p>
+                      <li>Truffle Mushroom Risotto<span className='tmdash'></span>350</li>
+                      <p>arborio rice, chicken broth, truffles, parmesan cheese</p>
                     </div>
                   </ul>
                 </div>
@@ -40,8 +40,11 @@ const TodaysMenu = () => {
                 <div className="menulist">
                   <ul>
                     <li>Tiramisu Parfait <span className='tmdash'></span> 250</li>
-                    <li>French Macaron Assortment <span className='tmdash'></span> 270</li>
-                    <li>German Black Forest Cake <span className='tmdash'></span> 300</li>
+                    <p>mascaporni cheese, espresso coffee, cocoa powder</p>
+                    <li>French Macaron<span className='tmdash'></span> 270</li>
+                    <p>almond flour, egg whites, granulated sugar</p>
+                    <li>Black Forest Cake <span className='tmdash'></span> 300</li>
+                    <p>chocolate cake, cherries, whipped cream, choco ganache</p>
                   </ul>
                 </div>
               </div>
@@ -56,8 +59,11 @@ const TodaysMenu = () => {
                 <div className="menulist">
                   <ul>
                     <li>Café au Lait <span className='tmdash'></span> 150</li>
+                    <p>coffee, milk, sugar</p>
                     <li>Spanish Sangria <span className='tmdash'></span> 200</li>
+                    <p>red wine, brandy, soda</p>
                     <li>Aperol Spritz <span className='tmdash'></span> 250</li>
+                    <p>aperol, soda water, prosecco</p>
                   </ul>
                 </div>
               </div>
