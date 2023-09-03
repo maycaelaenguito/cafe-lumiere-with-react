@@ -1,6 +1,9 @@
 import React from 'react';
 import MenuComponent from './MenuComponent';
 import Navbar from './Navbar';
+import TodaysMenu from './TodaysMenu';
+import Footer from './Footer';
+
 
 const Menu = () => {
   return (
@@ -12,6 +15,8 @@ const Menu = () => {
           <p>Menu</p>
       </div>
       <MenuComponent/>
+      <TodaysMenu/>
+      <Footer/>
     </div>
   )
 }

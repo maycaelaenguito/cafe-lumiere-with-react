@@ -1,10 +1,14 @@
+.tmenu-con{
+    
+}
+
 .tmenu-title{
-    padding: 0 2rem;
+    padding: 2rem;
+    text-align: center;
 }
 
 .tmenu-wrapper{
     display: grid;
-    margin: 6rem 5rem;
 }
 
 .menu-list {
@@ -14,9 +18,11 @@
 
 .tmenu-title li{
     list-style: none;
-    color: #000000a5;
+    color: #000000;
     font-family: 'Catamaran', sans-serif;
     flex-wrap: nowrap;
+    font-weight: 500;
+    letter-spacing: .05em;
 }
 
 .tmenu-title h4{
@@ -27,13 +33,13 @@
 }
 
 .tmenu{
-    width: 500px;
-    height: 450px;
-    overflow: hidden;
+    display: flex;
+    justify-self: end;
 }
 
+
 .tmenu img{
-    width: 100%;
+    width: 90%;
     height: 100%;
     object-fit: cover; /* Crop the image to cover the container */
     object-position: center;
@@ -63,18 +69,33 @@
     grid-row: 6;
 }
 
-.label-hash::before{
-    content: ' '; /* Unicode character for em dash (—) */
-    display: inline-block;
-    width: 100%; /* Adjust the width to control the length of the dash */
-    height: 1px; /* Adjust the height to control the thickness of the dash */
-    background-color: #3A1600; /* Change #000 to the desired color of the dash */
-    margin-bottom: 5px;
-    margin-right: 5px;
-}
 
 
 @media (min-width: 768px) {
+    .tmenu-title {
+        padding: 0;
+        margin: 0;
+        padding-left: 4rem;
+        text-align: left;
+    }
+    .tmenu{
+        width: 500px;
+        height: 450px;
+        overflow: hidden;
+    }
+    .tmenu img{
+        width: 100%;
+    }
+    .tmenu-img1, .tmenu-img3{
+        display: flex;
+        justify-self: end;
+    }
+    .tmenu-wrapper{
+        margin-bottom: 8rem;
+    }
+    .tmenu-wrapper1{
+        margin-top: 4rem;
+    }
     .tmenu-img1, .tmenu-img3{
         grid-column: 1;
         grid-row: 1;
@@ -86,10 +107,13 @@
     .tmenu-img2{
         grid-column: 2;
         grid-row: 2;
+        display: flex;
+        justify-self: start;
     }
     .tmenu-title2{
         grid-column: 1;
         grid-row: 2;
+        padding-left: 5rem;
     }
     .tmenu, .tmenu-title {
         width: 45vw;
@@ -100,11 +124,8 @@
     }
 
     .tmenu-title li{
-        font-size: 22px;
+        font-size: 18px;
         margin: 1rem 0;
-    }
-    .label-hash::before{
-        max-width: 70%;
     }
 
 }

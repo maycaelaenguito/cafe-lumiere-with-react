@@ -13,7 +13,7 @@ const TodaysMenu = () => {
           </div>
           <div className="tmenu-con">
             {/*  */}
-            <div className="tmenu-wrapper">
+            <div className="tmenu-wrapper tmenu-wrapper1">
               <div className="tmenu-title tmenu-title1">
                 <h4>Main Dishes</h4>
                 <div className="menulist">

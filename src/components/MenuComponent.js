@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/menu.css';
 import '../css/menucomponent.css';
-import Footer from './Footer';
-import TodaysMenu from './TodaysMenu';
+
 
 
 const MenuComponent = () => {
@@ -40,9 +39,8 @@ const MenuComponent = () => {
            </Link>
           </div>
         </div>
-        <TodaysMenu/>
+
       </div>
-      <Footer/>
     </div>
   );
 }
