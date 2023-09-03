@@ -18,9 +18,14 @@ const TodaysMenu = () => {
                 <h4>Main Dishes</h4>
                 <div className="menulist">
                   <ul>
-                    <li>Mediterranean Chicken Salad</li>
-                    <li>Italian Truffle Mushroom Risotto</li>
-                    <li>French Croque Monsieur</li>
+                    <div>
+                      <li>
+                        <span>Mediterranean Chicken Salad</span> 
+                        <span className='tmdash'></span>
+                        <span>300</span></li>
+                      <li>French Croque Monsieur <span className='tmdash'></span>300</li>
+                      <li>Italian Truffle Mushroom Risotto<span className='tmdash'></span>350</li>
+                    </div>
                   </ul>
                 </div>
               </div>
@@ -34,9 +39,9 @@ const TodaysMenu = () => {
                 <h4>Desserts</h4>
                 <div className="menulist">
                   <ul>
-                    <li>Tiramisu Parfait Topped with Strawberries</li>
-                    <li>French Macaron Assortment</li>
-                    <li>German Black Forest Cake</li>
+                    <li>Tiramisu Parfait <span className='tmdash'></span> 250</li>
+                    <li>French Macaron Assortment <span className='tmdash'></span> 270</li>
+                    <li>German Black Forest Cake <span className='tmdash'></span> 300</li>
                   </ul>
                 </div>
               </div>
@@ -50,9 +55,9 @@ const TodaysMenu = () => {
                 <h4>Beverages</h4>
                 <div className="menulist">
                   <ul>
-                    <li>Café au Lait <span className='label-hash hash7'></span> 150</li>
-                    <li>Spanish Sangria <span className='label-hash hash8'></span> 200</li>
-                    <li>Aperol Spritz <span className='label-hash hash9'></span> 250</li>
+                    <li>Café au Lait <span className='tmdash'></span> 150</li>
+                    <li>Spanish Sangria <span className='tmdash'></span> 200</li>
+                    <li>Aperol Spritz <span className='tmdash'></span> 250</li>
                   </ul>
                 </div>
               </div>

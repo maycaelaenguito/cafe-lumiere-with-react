@@ -66,7 +66,7 @@ const Footer = () => {
 
             <div className="bottom-footer">
                 <div className="copyright">
-                    <p title='Hello'>© 2023 <Link to='/'>Maycaela</Link>. <span>All rights reserved.</span></p>
+                    <p title='Hello'>© 2023 Made by <Link to='/'>Me</Link>. <span>All rights reserved.</span></p>
                 </div>
                 <div id='open-hours'>
                 </div>
