@@ -3,6 +3,7 @@ import MenuComponent from './MenuComponent';
 import Navbar from './Navbar';
 import TodaysMenu from './TodaysMenu';
 import Footer from './Footer';
+import BacktoTop from './BacktoTop';
 
 
 const Menu = () => {
@@ -16,6 +17,7 @@ const Menu = () => {
       </div>
       <MenuComponent/>
       <TodaysMenu/>
+      <BacktoTop/>
       <Footer/>
     </div>
   )
