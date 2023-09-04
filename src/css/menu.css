@@ -39,6 +39,14 @@
     background: rgba(0, 0, 0, 0.243) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1693823084/Cafe%20Lumiere/kohi_6_wf9xeg.png);
 }
 
+.drinks-title{
+    background: rgba(0, 0, 0, 0.243) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1693824999/Cafe%20Lumiere/kohi_9_paekev.png);
+}
+
+.desserts-title{
+    background: rgba(0, 0, 0, 0.243) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1693826588/Cafe%20Lumiere/kohi_10_hzjrlp.png);
+}
+
 .menu-bhd{
     width: 80%;
     height: 40vh;
@@ -53,7 +61,7 @@
 
 .menu-bhd h1{
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .menu-grid-container{
@@ -66,6 +74,19 @@
 
 .cof .blogs-nav{
     margin-bottom: 10vh;
+}
+
+.drinks-category{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #3A1600;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.menu-grid-item{
+    margin-bottom: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -85,6 +106,9 @@
     }
     .menu-grid-container{
         padding: 0 10%;
+    }
+    .menu-bhd h1{
+        font-size: 50px;
     }
 
 }

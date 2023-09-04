@@ -15,7 +15,7 @@ const Food = () => {
         </div>
       </div>
       <div className='menu-grid-container'>
-        <div className="top-grid">
+        <div className="top-grid menu-grid-item">
           <div className="menulist">
               <ul>  
                   {/* Dish Label, Price and Ingredients */}
@@ -177,7 +177,7 @@ const Food = () => {
                 </ul>
             </div>
         </div>
-        <div className="bottom-grid">
+        <div className="bottom-grid menu-grid-item">
           <div className="menulist">
           <ul>  
                   {/* Dish Label, Price and Ingredients */}

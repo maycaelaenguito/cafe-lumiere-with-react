@@ -1,101 +1,258 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Desserts = () => {
   return (
     <div>
-      <div className="blogs-nav">
-        <Navbar/>
+    <div className="blogs-nav">
+      <Navbar/>
+    </div>
+    <div className="menu-top">
+      <div className='menu-title-wrapper'>
+        <div className='team-ttl team-item desserts-title menu-bhd'>
+          <h1>Desserts & Appetizers</h1>
+        </div>
       </div>
-      <div className="desserts-menu menu-top">
-        <div className='menu-grid-container'>
-          <div className="top-grid">
-            <div className="menulist">
-                <ul>  
-                    {/* Dish Label, Price and Ingredients */}
-                      <div>
-                        <div className='menu-label'>
-                          <div>
-                            <li>Mediterranean Chicken Salad</li>
-                          </div> 
-                          <div>
-                            <li>300</li>
-                          </div>
+      <div className='menu-grid-container'>
+        <div className="top-grid menu-grid-item">
+          <div className="menulist">
+              <ul>  
+                <div className='drinks-category'>
+                  <h4>Desserts</h4>
+                </div>
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Mango Float</li>
+                        </div> 
+                        <div>
+                          <li>180</li>
                         </div>
-                        <p>chicken, mixed Greens, tomatoes, olives</p>
                       </div>
-                    {/* Dish Label, Price and Ingredients */}
-                      <div>
-                        <div className='menu-label'>
-                          <div>
-                            <li>French Croque Monsieur</li>
-                          </div> 
-                          <div>
-                            <li>300</li>
-                          </div>
+                      <p>layered dessert with mangoes and cream</p>
+                    </div>
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Leche Flan</li>
+                        </div> 
+                        <div>
+                          <li>120</li>
                         </div>
-                        <p>bread, ham, cheese, béchamel sauce</p>
                       </div>
-                    {/* Dish Label, Price and Ingredients */}
-                      <div>
-                        <div className='menu-label'>
-                          <div>
-                            <li>Truffle Mushroom Risotto</li>
-                          </div> 
-                          <div>
-                            <li>350</li>
-                          </div>
+                      <p>traditional Filipino caramel custard</p>
+                    </div>
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Tiramisu</li>
+                        </div> 
+                        <div>
+                          <li>220</li>
                         </div>
-                        <p>arborio rice, chicken broth, truffles, parmesan cheese</p>
                       </div>
-                  </ul>
-              </div>
-          </div>
-          <div className="bottom-grid">
-            <div className="menulist">
-                <ul>  
+                      <p>classic Italian coffee-flavored dessert</p>
+                    </div>
                     {/* Dish Label, Price and Ingredients */}
-                      <div>
-                        <div className='menu-label'>
-                          <div>
-                            <li>Mediterranean Chicken Salad</li>
-                          </div> 
-                          <div>
-                            <li>300</li>
-                          </div>
+                     <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Chocolate Lava Cake</li>
+                        </div> 
+                        <div>
+                          <li>200</li>
                         </div>
-                        <p>chicken, mixed Greens, tomatoes, olives</p>
                       </div>
-                    {/* Dish Label, Price and Ingredients */}
-                      <div>
-                        <div className='menu-label'>
-                          <div>
-                            <li>French Croque Monsieur</li>
-                          </div> 
-                          <div>
-                            <li>300</li>
-                          </div>
+                      <p>warm chocolate cake with a molten center</p>
+                    </div>
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Bingsu </li>
+                        </div> 
+                        <div>
+                          <li>250</li>
                         </div>
-                        <p>bread, ham, cheese, béchamel sauce</p>
                       </div>
-                    {/* Dish Label, Price and Ingredients */}
-                      <div>
-                        <div className='menu-label'>
-                          <div>
-                            <li>Truffle Mushroom Risotto</li>
-                          </div> 
-                          <div>
-                            <li>350</li>
-                          </div>
+                      <p>korean shaved ice dessert with various toppings</p>
+                    </div>
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Churros with Chocolate Sauce</li>
+                        </div> 
+                        <div>
+                          <li>180</li>
                         </div>
-                        <p>arborio rice, chicken broth, truffles, parmesan cheese</p>
                       </div>
-                  </ul>
-              </div>
-          </div>
+                      <p>spanish-style fried dough with chocolate dip</p>
+                    </div>
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Panna Cotta</li>
+                        </div> 
+                        <div>
+                          <li>190</li>
+                        </div>
+                      </div>
+                      <p>creamy Italian dessert with fruit compote</p>
+                  </div>
+                {/* Dish Label, Price and Ingredients */}
+                  <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Buko Pie</li>
+                        </div> 
+                        <div>
+                          <li>160</li>
+                        </div>
+                      </div>
+                      <p> coconut pie</p>
+                  </div>
+                  {/* Dish Label, Price and Ingredients */}
+                  <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Crepes with Nutella and Banana </li>
+                        </div> 
+                        <div>
+                          <li>170</li>
+                        </div>
+                      </div>
+                      <p>thin pancakes with chocolate and banana</p>
+                  </div>
+                  {/* Dish Label, Price and Ingredients */}
+                  <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Mochi Ice Cream</li>
+                        </div> 
+                        <div>
+                          <li>160</li>
+                        </div>
+                      </div>
+                      <p>japanese rice cake filled with ice cream</p>
+                  </div>
+                </ul>
+            </div>
+        </div>
+        <div className="bottom-grid menu-grid-item">
+          <div className="menulist">
+              <ul>  
+                <div className='drinks-category'>
+                  <h4>Appetizers</h4>
+                </div>
+                {/* Dish Label, Price and Ingredients */}
+                  <div>
+                    <div className='menu-label'>
+                      <div>
+                        <li>Calamares Fritos </li>
+                      </div> 
+                      <div>
+                        <li>180</li>
+                      </div>
+                    </div>
+                    <p>fried squid rings with garlic mayo</p>
+                  </div>
+                {/* Dish Label, Price and Ingredients */}
+                  <div>
+                    <div className='menu-label'>
+                      <div>
+                        <li>Bruschetta </li>
+                      </div> 
+                      <div>
+                        <li>160</li>
+                      </div>
+                    </div>
+                    <p>toasted bread with diced tomatoes, basil, and olive oil</p>
+                  </div>
+                {/* Dish Label, Price and Ingredients */}
+                  <div>
+                    <div className='menu-label'>
+                      <div>
+                        <li>Gyoza</li>
+                      </div> 
+                      <div>
+                        <li>190</li>
+                      </div>
+                    </div>
+                    <p>japanese pan-fried dumplings</p>
+                  </div>
+                {/* Dish Label, Price and Ingredients */}
+                  <div>
+                    <div className='menu-label'>
+                      <div>
+                        <li>Filipino Lumpia</li>
+                      </div> 
+                      <div>
+                        <li>150</li>
+                      </div>
+                    </div>
+                    <p>spring rolls with a sweet dipping sauce</p>
+                  </div>
+                {/* Dish Label, Price and Ingredients */}
+                  <div>
+                    <div className='menu-label'>
+                      <div>
+                        <li>Hazelnut Coffee</li>
+                      </div> 
+                      <div>
+                        <li>140</li>
+                      </div>
+                    </div>
+                    <p>brewed coffee, hazelnut syrup, milk</p>
+                  </div>
+                {/* Dish Label, Price and Ingredients */}
+                    <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Coconut Iced Coffee</li>
+                        </div> 
+                        <div>
+                          <li>150</li>
+                        </div>
+                      </div>
+                      <p>cold brew coffee, coconut milk, sweetener, ice</p>
+                    </div>
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Affogato</li>
+                        </div> 
+                        <div>
+                          <li>120</li>
+                        </div>
+                      </div>
+                      <p>espresso, vanilla ice cream</p>
+                  </div>
+                {/* Dish Label, Price and Ingredients */}
+                  <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Café au Lait</li>
+                        </div> 
+                        <div>
+                          <li>120</li>
+                        </div>
+                      </div>
+                      <p>brewed coffee, equal parts steamed milk</p>
+                  </div>
+                </ul>
+            </div>
         </div>
       </div>
     </div>
+    <Footer/>
+  </div>
   )
 }
 

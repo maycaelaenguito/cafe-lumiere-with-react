@@ -41,15 +41,6 @@
     margin-bottom: 1.5rem;
 }
 
-/* .tmdash::before{
-    content: ' '; 
-    display: inline-block;
-    width: 10vw;
-    height: 1px; 
-    background-color: #0000005d;
-    margin: 5px 20px;
-} */
-
 .tmenu-title h4{
     font-size: 20px;
     font-weight: lighter;
