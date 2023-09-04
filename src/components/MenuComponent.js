@@ -11,16 +11,16 @@ const MenuComponent = () => {
       <div className="menu-container">
         <div className="menu-category">
           <div className="category-container">
-          <Link to="/about/menu">
+          <Link to="/about/menu/coffee">
             <div className="coffee food-menu">
                 <h1>Coffee</h1>
             </div>
             </Link>
           </div>
           <div className="category-container">
-            <Link to="/about/menu">
+            <Link to="/about/menu/main-dish">
               <div className="food food-menu">
-                <h1>Food</h1>
+                <h1>Main Dishes</h1>
               </div>
             </Link>
           </div>
@@ -32,9 +32,9 @@ const MenuComponent = () => {
             </Link>
           </div>
           <div className="category-container">
-           <Link to="/about/menu/desserts">
+           <Link to="/about/menu/desserts-appetizers">
               <div className="desserts food-menu">
-                <h1>Desserts</h1>
+                <h1>Desserts & Appetizers</h1>
               </div>
            </Link>
           </div>

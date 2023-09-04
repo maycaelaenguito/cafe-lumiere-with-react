@@ -25,3 +25,9 @@
     font-size: 120px;
     letter-spacing: .05em;
 }
+
+@media (min-width: 768px) {
+    .menu-top{
+        padding-top: 12vh;
+    }
+}

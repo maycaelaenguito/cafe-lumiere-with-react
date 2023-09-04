@@ -4,6 +4,9 @@
 
 .tmenu-title{
     padding: 2rem 0;
+}
+
+.tmenu-title h4{
     text-align: center;
 }
 
@@ -16,7 +19,7 @@
     justify-content: center;
 }
 
-.tmenu-title li{
+.menulist li{
     list-style: none;
     color: #2a1000;
     display: flex;
@@ -24,13 +27,13 @@
     justify-content: center;
 }
 
-.tmenu-title li, .tmenu-title p{
+.menulist li, .menulist p{
     font-family: 'Catamaran', sans-serif;
     font-weight: 500;
     letter-spacing: .05em;
 }
 
-.tmenu-title p{
+.menulist p{
     color: #0000008e;
     margin-bottom: 1.5rem;
 }
@@ -91,20 +94,30 @@
 
 .menu-label{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 360px){
     .tmenu-title li{
         font-size: 4vw;
     }
+    .tmenu-title p{
+        font-size: 3.7vw;
+    }
+}
+
+@media (max-width: 768px){
+    .menulist ul{
+        margin: 0 10%;
+    }
 }
 
 @media (min-width: 768px) {
-    .menu-label{
-        justify-content: space-between;
-    }
-    
     .tmenu-title {
         padding: 0;
         margin: 0;
