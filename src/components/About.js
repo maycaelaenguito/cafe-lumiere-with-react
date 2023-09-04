@@ -75,7 +75,7 @@ const About = () => {
                 <div className='best best-one'>
                   {/* Image */}
                   <div className="pick-container">
-                    <Link to="/about/menu">
+                    <Link to="/about/menu/main-dish">
                       <div className="vegan about-menu">
                       </div>
                     </Link>
@@ -92,7 +92,7 @@ const About = () => {
                 <div className='best best-two'>
                    {/* Image */}
                    <div className="pick-container">
-                    <Link to="/about/menu">
+                    <Link to="/about/menu/beverages">
                       <div className="cocktails about-menu">
                       </div>
                     </Link>
@@ -109,7 +109,7 @@ const About = () => {
                 <div className='best best-three'>
                    {/* Image */}
                    <div className="pick-container">
-                    <Link to="/about/menu">
+                    <Link to="/about/menu/desserts-appetizers">
                       <div className="delicacies about-menu">
                       </div>
                     </Link>

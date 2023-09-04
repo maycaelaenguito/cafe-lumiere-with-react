@@ -11,10 +11,10 @@ import BlogArticle2 from './components/BlogArticle2';
 import BlogArticle3 from './components/BlogArticle3';
 import BlogArticle4 from './components/BlogArticle4';
 import BlogArticle5 from './components/BlogArticle5';
-import Coffee from './components/Coffee'
-import Desserts from './components/Desserts'
-import Food from './components/Food'
-import Drinks from './components/Drinks'
+import Coffee from './components/Coffee';
+import Desserts from './components/Desserts';
+import Food from './components/Food';
+import Drinks from './components/Drinks';
 
 function App() {
   return (
