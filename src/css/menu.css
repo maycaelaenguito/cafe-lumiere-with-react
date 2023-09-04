@@ -26,8 +26,51 @@
     letter-spacing: .05em;
 }
 
+/* Coffee Menu */
+.coffee-menu{
+    background: rgb(0, 0, 0) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1693811023/Cafe%20Lumiere/kohi_1_eb6tjo.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: darken;
+
+}
+.menu-grid-container{
+    display: grid;
+}
+
+.coffee-menu .menulist li{
+    color: #fff;
+}
+
+
+.menu-top{
+    padding-top: 10vh;
+}
+
+.cof .blogs-nav{
+    margin-bottom: 10vh;
+}
+
+
 @media (min-width: 768px) {
     .menu-top{
         padding-top: 12vh;
+        
     }
+    .menu-grid-container{
+        gap: 4rem;
+    }
+    .top-grid{
+        grid-column: 1;
+    }
+    .bottom-grid{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .menu-grid-container{
+        padding: 0 10%;
+    }
+
 }

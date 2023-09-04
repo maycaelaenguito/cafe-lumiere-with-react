@@ -20,11 +20,14 @@
 }
 
 .menulist li{
-    list-style: none;
-    color: #2a1000;
+    list-style: none; 
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.tmenu-con .menulist li{
+    color: #2a1000;
 }
 
 .menulist li, .menulist p{
@@ -171,6 +174,9 @@
     .tmenu-title li{
         font-size: 18px;
         justify-content: left;
+    }
+    .menu-list p{
+        margin-bottom: 2rem;
     }
 
 

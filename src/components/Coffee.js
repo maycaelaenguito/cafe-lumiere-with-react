@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar';
 import '../css/menu.css';
+import Footer from './Footer';
 
 const Coffee = () => {
   return (
-    <div>
+    <div className='cofd'>
       <div className="blogs-nav">
         <Navbar/>
       </div>
@@ -96,6 +97,7 @@ const Coffee = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }
