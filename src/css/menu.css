@@ -26,25 +26,32 @@
     letter-spacing: .05em;
 }
 
-/* Coffee Menu */
-.coffee-title-wrapper{
+.menu-title-wrapper{
     display: flex;
     justify-content: center;
 }
+
 .coffee-title{
     background: rgba(0, 0, 0, 0.243) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1693811023/Cafe%20Lumiere/kohi_1_eb6tjo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+}
+
+.food-title{
+    background: rgba(0, 0, 0, 0.243) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1693823084/Cafe%20Lumiere/kohi_6_wf9xeg.png);
+}
+
+.menu-bhd{
     width: 80%;
     height: 40vh;
     display: flex;
     align-items: center;
     margin: 3rem 0;
     background-blend-mode: darken; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.coffee-title h1{
+.menu-bhd h1{
     color: #fff;
     font-size: 50px;
 }
@@ -60,7 +67,6 @@
 .cof .blogs-nav{
     margin-bottom: 10vh;
 }
-
 
 @media (min-width: 768px) {
     .menu-top{

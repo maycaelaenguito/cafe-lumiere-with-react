@@ -5,14 +5,14 @@ import Footer from './Footer';
 
 const Coffee = () => {
   return (
-    <div className='cofd'>
+    <div>
       <div className="blogs-nav">
         <Navbar/>
       </div>
-      <div className="coffee-menu menu-top">
-        <div className='coffee-title-wrapper'>
-          <div className='team-ttl team-item coffee-title'>
-            <h1>Coffee Menu</h1>
+      <div className="menu-top">
+        <div className='menu-title-wrapper'>
+          <div className='team-ttl team-item coffee-title menu-bhd'>
+            <h1>Coffee</h1>
           </div>
         </div>
         <div className='menu-grid-container'>
