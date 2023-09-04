@@ -25,14 +25,14 @@ const MenuComponent = () => {
             </Link>
           </div>
           <div className="category-container">
-            <Link to="/about/menu">
+            <Link to="/about/menu/beverages">
               <div className="drinks food-menu">
-                <h1>Drinks</h1>
+                <h1>Beverages</h1>
               </div>
             </Link>
           </div>
           <div className="category-container">
-           <Link to="/about/menu">
+           <Link to="/about/menu/desserts">
               <div className="desserts food-menu">
                 <h1>Desserts</h1>
               </div>

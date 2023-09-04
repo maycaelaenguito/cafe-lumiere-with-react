@@ -5,7 +5,6 @@ import Blogs from './components/Blogs';
 import ContactUs from './components/ContactUs';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from './components/Menu';
-import Booking from './components/Booking';
 import AboutUs from './components/AboutUs';
 import BlogArticle1 from './components/BlogArticle1';
 import BlogArticle2 from './components/BlogArticle2';
@@ -24,7 +23,6 @@ function App() {
           <Route path="/about/how-we-started" element={<AboutUs/>}></Route>
           <Route path="/blogs" element={<Blogs/>}></Route>
           <Route path="/contactus" element={<ContactUs/>}></Route>
-          <Route path="/contactus/booking" element={<Booking/>}></Route>
           <Route path="/blogs/blog-article-1" element={<BlogArticle1/>}></Route>
           <Route path="/blogs/blog-article-2" element={<BlogArticle2/>}></Route>
           <Route path="/blogs/blog-article-3" element={<BlogArticle3/>}></Route>

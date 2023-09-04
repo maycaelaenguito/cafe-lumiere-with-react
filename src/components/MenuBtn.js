@@ -7,7 +7,7 @@ const MenuBtn = () => {
     <div className='menu menu-btn menu-menu-btn'>
         <Link to="/about/menu">
               <button>
-              See Full Menu
+              See Menu
               </button>
         </Link>
     </div>

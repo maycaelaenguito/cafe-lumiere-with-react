@@ -5,7 +5,7 @@ import '../css/buttons.css'
 const BookingBtn = () => {
   return (
     <div className='landscape-btn'>
-    <Link to="/contactus/booking">
+    <Link to="/contactus">
       <button>
         Book Now
       </button>

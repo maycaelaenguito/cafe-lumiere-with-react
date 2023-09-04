@@ -24,7 +24,7 @@ const BgSlideshow = () => {
           <div className='menu'>
             <Link to="/about/menu">
               <button>
-                Full Menu
+                See Menu
               </button>
             </Link>
           </div>

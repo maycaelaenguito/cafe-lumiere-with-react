@@ -35,14 +35,14 @@
     margin-bottom: 1.5rem;
 }
 
-.tmdash::before{
-    content: ' '; /* Unicode character for em dash (—) */
+/* .tmdash::before{
+    content: ' '; 
     display: inline-block;
-    width: 10vw; /* Adjust the width to control the length of the dash */
-    height: 1px; /* Adjust the height to control the thickness of the dash */
-    background-color: #0000005d; /* Change #000 to the desired color of the dash */
+    width: 10vw;
+    height: 1px; 
+    background-color: #0000005d;
     margin: 5px 20px;
-}
+} */
 
 .tmenu-title h4{
     font-size: 20px;
@@ -89,6 +89,11 @@
     grid-row: 6;
 }
 
+.menu-label{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media (max-width: 360px){
     .tmenu-title li{
         font-size: 4vw;
@@ -96,6 +101,10 @@
 }
 
 @media (min-width: 768px) {
+    .menu-label{
+        justify-content: space-between;
+    }
+    
     .tmenu-title {
         padding: 0;
         margin: 0;
@@ -150,15 +159,10 @@
         font-size: 18px;
         justify-content: left;
     }
-    .tmdash::before{
-        width: 10vw;
-        margin: 5px 10px;
-    }
+
 
 }
 
 @media (min-width: 1200px){
-    .tmdash::before{
-        width: 22vw;
-    }
+
 }
