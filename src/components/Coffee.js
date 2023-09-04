@@ -10,6 +10,11 @@ const Coffee = () => {
         <Navbar/>
       </div>
       <div className="coffee-menu menu-top">
+        <div className='coffee-title-wrapper'>
+          <div className='team-ttl team-item coffee-title'>
+            <h1>Coffee Menu</h1>
+          </div>
+        </div>
         <div className='menu-grid-container'>
           <div className="top-grid">
             <div className="menulist">
@@ -18,80 +23,200 @@ const Coffee = () => {
                       <div>
                         <div className='menu-label'>
                           <div>
-                            <li>Mediterranean Chicken Salad</li>
+                            <li>Espresso Shot</li>
                           </div> 
                           <div>
-                            <li>300</li>
+                            <li>60</li>
                           </div>
                         </div>
-                        <p>chicken, mixed Greens, tomatoes, olives</p>
+                        <p>finely ground coffee beans, water</p>
                       </div>
                     {/* Dish Label, Price and Ingredients */}
                       <div>
                         <div className='menu-label'>
                           <div>
-                            <li>French Croque Monsieur</li>
+                            <li>Americano</li>
                           </div> 
                           <div>
-                            <li>300</li>
+                            <li>120</li>
                           </div>
                         </div>
-                        <p>bread, ham, cheese, béchamel sauce</p>
+                        <p>espresso, steamed milk, milk foam</p>
                       </div>
                     {/* Dish Label, Price and Ingredients */}
                       <div>
                         <div className='menu-label'>
                           <div>
-                            <li>Truffle Mushroom Risotto</li>
+                            <li>Latte</li>
                           </div> 
                           <div>
-                            <li>350</li>
+                            <li>150</li>
                           </div>
                         </div>
-                        <p>arborio rice, chicken broth, truffles, parmesan cheese</p>
+                        <p>espresso, steamed milk</p>
                       </div>
+                      {/* Dish Label, Price and Ingredients */}
+                       <div>
+                        <div className='menu-label'>
+                          <div>
+                            <li>Mocha</li>
+                          </div> 
+                          <div>
+                            <li>170</li>
+                          </div>
+                        </div>
+                        <p>espresso, steamed milk, chocolate syrup, whipped cream</p>
+                      </div>
+                    {/* Dish Label, Price and Ingredients */}
+                      <div>
+                        <div className='menu-label'>
+                          <div>
+                            <li>Macchiato</li>
+                          </div> 
+                          <div>
+                            <li>100</li>
+                          </div>
+                        </div>
+                        <p>espresso, a dollop of frothy milk</p>
+                      </div>
+                    {/* Dish Label, Price and Ingredients */}
+                      <div>
+                        <div className='menu-label'>
+                          <div>
+                            <li>Iced Coffee</li>
+                          </div> 
+                          <div>
+                            <li>90</li>
+                          </div>
+                        </div>
+                        <p>brewed coffee, ice</p>
+                      </div>
+                    {/* Dish Label, Price and Ingredients */}
+                      <div>
+                        <div className='menu-label'>
+                          <div>
+                            <li>Turkish Coffee</li>
+                          </div> 
+                          <div>
+                            <li>110</li>
+                          </div>
+                        </div>
+                        <p>finely ground coffee, water, cardamom, sugar</p>
+                    </div>
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
+                        <div className='menu-label'>
+                          <div>
+                            <li>Cappuccino</li>
+                          </div> 
+                          <div>
+                            <li>120</li>
+                          </div>
+                        </div>
+                        <p>espresso, steamed milk, milk foam</p>
+                    </div>
                   </ul>
               </div>
           </div>
           <div className="bottom-grid">
             <div className="menulist">
                 <ul>  
-                    {/* Dish Label, Price and Ingredients */}
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Caramel Frappuccino</li>
+                        </div> 
+                        <div>
+                          <li>170</li>
+                        </div>
+                      </div>
+                      <p>espresso, caramel syrup, milk, ice, whipped cream</p>
+                    </div>
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Vanilla Latte</li>
+                        </div> 
+                        <div>
+                          <li>140</li>
+                        </div>
+                      </div>
+                      <p>espresso, steamed milk, vanilla syrup</p>
+                    </div>
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Irish Coffee</li>
+                        </div> 
+                        <div>
+                          <li>180</li>
+                        </div>
+                      </div>
+                      <p>coffee, Irish whiskey, sugar, cream</p>
+                    </div>
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Cinnamon Dolce Latte</li>
+                        </div> 
+                        <div>
+                          <li>170</li>
+                        </div>
+                      </div>
+                      <p>espresso, steamed milk, cinnamon dolce syrup, whipped cream</p>
+                    </div>
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
+                      <div className='menu-label'>
+                        <div>
+                          <li>Hazelnut Coffee</li>
+                        </div> 
+                        <div>
+                          <li>140</li>
+                        </div>
+                      </div>
+                      <p>brewed coffee, hazelnut syrup, milk</p>
+                    </div>
+                  {/* Dish Label, Price and Ingredients */}
                       <div>
                         <div className='menu-label'>
                           <div>
-                            <li>Mediterranean Chicken Salad</li>
+                            <li>Coconut Iced Coffee</li>
                           </div> 
                           <div>
-                            <li>300</li>
+                            <li>150</li>
                           </div>
                         </div>
-                        <p>chicken, mixed Greens, tomatoes, olives</p>
+                        <p>cold brew coffee, coconut milk, sweetener, ice</p>
                       </div>
                     {/* Dish Label, Price and Ingredients */}
                       <div>
                         <div className='menu-label'>
                           <div>
-                            <li>French Croque Monsieur</li>
+                            <li>Affogato</li>
                           </div> 
                           <div>
-                            <li>300</li>
+                            <li>120</li>
                           </div>
                         </div>
-                        <p>bread, ham, cheese, béchamel sauce</p>
-                      </div>
-                    {/* Dish Label, Price and Ingredients */}
-                      <div>
+                        <p>espresso, vanilla ice cream</p>
+                    </div>
+                  {/* Dish Label, Price and Ingredients */}
+                    <div>
                         <div className='menu-label'>
                           <div>
-                            <li>Truffle Mushroom Risotto</li>
+                            <li>Café au Lait</li>
                           </div> 
                           <div>
-                            <li>350</li>
+                            <li>120</li>
                           </div>
                         </div>
-                        <p>arborio rice, chicken broth, truffles, parmesan cheese</p>
-                      </div>
+                        <p>brewed coffee, equal parts steamed milk</p>
+                    </div>
                   </ul>
               </div>
           </div>

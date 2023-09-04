@@ -101,14 +101,14 @@
     font-weight: lighter;
   }
   
-
-
   .team-ttl h1{
-    font-size: 40px;
-    color: #3A1600;
     padding: 1rem 0;
+  }
+
+  .team-wrapper .team-ttl h1, .todays-con h1{
+    color: #3A1600;
+    font-size: 40px;
     margin-top: 5rem;
-    
   }
 
   .team-details p, .team-desc p{

@@ -4,7 +4,7 @@ import '../css/todaysmenu.css';
 const TodaysMenu = () => {
   return (
     <div>
-      <div>
+      <div className='todays-con'>
           <div className='team-ttl team-item'>
             <h1>Today's Menu</h1>
           </div>
