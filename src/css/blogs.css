@@ -19,6 +19,10 @@
     font-family: 'Catamaran', sans-serif;
 }
 
+.blog-posts{
+    padding-top: 12vh;
+}
+
 .blogs-header h1{
     font-weight: 500;
     color: #3A1600;
@@ -114,12 +118,38 @@
     text-decoration: none;
 }
 
+.blog-posts{
+    display: grid;
+    
+}
+
+.blogs-sub span, .blog-conclusion span{
+    font-weight: bold;
+}
+
+.blog-conclusion li{
+   
+    margin-left: 4rem;
+}
+
 @media (max-width: 767px){
     .blogs-nav{
         height: 10vh;
     }
+    .blog-posts{
+        padding-top: 10vh;
+    }
 }
 @media (min-width: 768px){
+    .blog-posts{
+        grid-template-columns: 70% 30%;
+    }
+    .main-article{
+        grid-column: 1;
+    }
+    .side-article{
+        grid-column: 2;
+    }
     .blogs-img{
         max-width: 80%;
         height: 80vh;
