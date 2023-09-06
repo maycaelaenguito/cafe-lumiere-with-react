@@ -198,54 +198,6 @@ const Desserts = () => {
                     </div>
                     <p>spring rolls with a sweet dipping sauce</p>
                   </div>
-                {/* Dish Label, Price and Ingredients */}
-                  <div>
-                    <div className='menu-label'>
-                      <div>
-                        <li>Hazelnut Coffee</li>
-                      </div> 
-                      <div>
-                        <li>140</li>
-                      </div>
-                    </div>
-                    <p>brewed coffee, hazelnut syrup, milk</p>
-                  </div>
-                {/* Dish Label, Price and Ingredients */}
-                    <div>
-                      <div className='menu-label'>
-                        <div>
-                          <li>Coconut Iced Coffee</li>
-                        </div> 
-                        <div>
-                          <li>150</li>
-                        </div>
-                      </div>
-                      <p>cold brew coffee, coconut milk, sweetener, ice</p>
-                    </div>
-                  {/* Dish Label, Price and Ingredients */}
-                    <div>
-                      <div className='menu-label'>
-                        <div>
-                          <li>Affogato</li>
-                        </div> 
-                        <div>
-                          <li>120</li>
-                        </div>
-                      </div>
-                      <p>espresso, vanilla ice cream</p>
-                  </div>
-                {/* Dish Label, Price and Ingredients */}
-                  <div>
-                      <div className='menu-label'>
-                        <div>
-                          <li>Café au Lait</li>
-                        </div> 
-                        <div>
-                          <li>120</li>
-                        </div>
-                      </div>
-                      <p>brewed coffee, equal parts steamed milk</p>
-                  </div>
                 </ul>
             </div>
         </div>
