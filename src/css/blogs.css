@@ -35,7 +35,8 @@
 
 .blog-posts{
     padding-top: 12vh;
-    padding: 0 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .blogs-header h1{
@@ -134,7 +135,6 @@
 
 .blog-posts{
     display: grid;
-    
 }
 
 .blogs-sub span, .blog-conclusion span{
@@ -173,8 +173,10 @@
 }
 @media (min-width: 768px){
     .blog-posts{
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 76% 20%;
+        margin: 0 4%;
     }
+
     .main-article{
         grid-column: 1;
     }
