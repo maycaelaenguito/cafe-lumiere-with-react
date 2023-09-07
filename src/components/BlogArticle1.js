@@ -10,7 +10,7 @@ const BlogArticle1 = () => {
         <Navbar/>
       </div>
       <div className="blog-posts">
-        <div className="main-article">
+        <div className="main-article article-item">
           <div>
             <div className="post-img">
               <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1693996461/Cafe%20Lumiere/matchmocha_qke1ut.png" alt="Blog 1" />
@@ -22,7 +22,7 @@ const BlogArticle1 = () => {
                 <h1>Matcha vs. Mocha: Which Brew is Right for You?</h1>
               </div>
               <div className="blog-content">
-                <div className="blogs-sub">
+                <div className="blogs-sub blogs-item">
                   <p>In the world of caffeinated beverages, there's no shortage of options to choose from. Two popular choices that often find themselves in the spotlight are matcha and mocha. While they may sound similar, they are distinctly different in terms of flavor, preparation, and health benefits. So, if you're wondering which brew is right for you, let's dive into the matcha vs. mocha showdown and help you make an informed decision.</p>
                 <div className='blogs-item'>
                   <h2>Matcha: The Green Elixir</h2>
@@ -38,7 +38,7 @@ const BlogArticle1 = () => {
                     <p><span>Preparation:   </span>Making a mocha is quite simple. It typically involves combining espresso or strong coffee with hot milk and sweetened cocoa powder or chocolate syrup. Whipped cream and chocolate shavings are often added as a delicious topping.</p>
                     <p><span>Health Benefits:  </span>While mochas are undeniably delicious, they are not known for their health benefits. The sugar and calorie content in a typical mocha can be high, especially if it's loaded with whipped cream and extra chocolate. However, the caffeine in coffee can provide a temporary energy boost.</p>
                 </div>
-                <div className="blog-conclusion">
+                <div className="blog-conclusion blogs-item">
                   <h2>Which One is Right for You?</h2>
                   <p>Choosing between matcha and mocha ultimately depends on your personal preferences and needs.</p>
                   <span>Choose Matcha if:</span>
@@ -61,7 +61,7 @@ const BlogArticle1 = () => {
             </div>
           </div>
         </div>
-        <div className="side-article">
+        <div className="side-article article-item">
           <div>
             <h3>Other articles you might enjoy</h3>
             <div className="other-articles-wrapper">
@@ -69,10 +69,12 @@ const BlogArticle1 = () => {
                 <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694066096/Cafe%20Lumiere/matchmocha_1_r2cwff.png" alt="other blogs" />
               </div>
               <div className='other-articles-title'>
-                <div className="blog-date">
-                  <p>07 / 22 / 2023</p>
-                </div>
-                <h5>From Espresso to Latte: A Coffee Drinker's Handbook</h5>
+                  <div>
+                    <div>
+                      <p>07 / 22 / 2023</p>
+                    </div>
+                    <h5>From Espresso to Latte: A Coffee Drinker's Handbook</h5>
+                  </div>
               </div>
             </div>
             <div className="other-articles-wrapper">
@@ -80,10 +82,12 @@ const BlogArticle1 = () => {
                 <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694066096/Cafe%20Lumiere/matchmocha_1_r2cwff.png" alt="other blogs" />
               </div>
               <div className='other-articles-title'>
-                <div className="blog-date">
-                  <p>07 / 22 / 2023</p>
-                </div>
-                <h5>From Espresso to Latte: A Coffee Drinker's Handbook</h5>
+                  <div>
+                    <div>
+                      <p>07 / 22 / 2023</p>
+                    </div>
+                    <h5>From Espresso to Latte: A Coffee Drinker's Handbook</h5>
+                  </div>
               </div>
             </div>
             <div className="other-articles-wrapper">
@@ -91,10 +95,12 @@ const BlogArticle1 = () => {
                 <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694066096/Cafe%20Lumiere/matchmocha_1_r2cwff.png" alt="other blogs" />
               </div>
               <div className='other-articles-title'>
-                <div className="blog-date">
-                  <p>07 / 22 / 2023</p>
+                <div>
+                  <div>
+                    <p>07 / 22 / 2023</p>
+                  </div>
+                  <h5>From Espresso to Latte: A Coffee Drinker's Handbook</h5>
                 </div>
-                <h5>From Espresso to Latte: A Coffee Drinker's Handbook</h5>
               </div>
             </div>
           </div>
