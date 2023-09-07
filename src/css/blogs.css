@@ -37,6 +37,10 @@
     margin-bottom: 1.5rem;
 }
 
+.blog-conclusion div{
+    margin: 2rem 0;
+}
+
 .side-article h3{
     margin: 1rem;
 }
@@ -104,7 +108,7 @@
 }
 
 .chronicles-img{
-    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691368696/Cafe%20Lumiere/turkish-coffee-1021286_1920_cfrh4e.jpg);
+    background: url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1693996461/Cafe%20Lumiere/matchmocha_qke1ut.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,7 +136,7 @@
 }
 
 .bliss-img{
-    background: rgba(56, 25, 0, 0.22) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1691374842/Cafe%20Lumiere/coffee-5712775_1920_lda89s.jpg);
+    background: rgba(56, 25, 0, 0.22) url(https://res.cloudinary.com/dk3aalcb0/image/upload/v1694066096/Cafe%20Lumiere/matchmocha_1_r2cwff.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
