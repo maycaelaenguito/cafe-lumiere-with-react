@@ -67,27 +67,27 @@ const BlogArticle2 = () => {
             </div>
             <div className="other-articles-wrapper">
               <div className='other-articles-img'>
-                <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694066096/Cafe%20Lumiere/matchmocha_1_r2cwff.png" alt="other blogs" />
+                <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1691369279/Cafe%20Lumiere/cake-1284548_1280_powrs4.jpg" alt="other blogs" />
               </div>
               <div className='other-articles-title'>
                   <div>
                     <div>
                       <p>07 / 22 / 2023</p>
                     </div>
-                    <h5>From Espresso to Latte: A Coffee Drinker's Handbook</h5>
+                    <h5>Indulge Your Sweet Tooth: Exploring the Best Dessert Spots in Manila</h5>
                   </div>
               </div>
             </div>
             <div className="other-articles-wrapper">
               <div className='other-articles-img'>
-                <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694066096/Cafe%20Lumiere/matchmocha_1_r2cwff.png" alt="other blogs" />
+                <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1691368924/Cafe%20Lumiere/bread-1284438_1280_wg5w6y.jpg" alt="other blogs" />
               </div>
               <div className='other-articles-title'>
                 <div>
                   <div>
                     <p>07 / 22 / 2023</p>
                   </div>
-                  <h5>From Espresso to Latte: A Coffee Drinker's Handbook</h5>
+                  <h5>Top 10 Must Try Pastries</h5>
                 </div>
               </div>
             </div>
