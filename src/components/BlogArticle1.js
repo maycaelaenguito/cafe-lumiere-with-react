@@ -63,7 +63,42 @@ const BlogArticle1 = () => {
           </div>
         </div>
         <div className="side-article">
-
+          <div>
+            <h3>Other articles you might enjoy</h3>
+            <div className="other-articles-wrapper">
+              <div className='other-articles-img'>
+                <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694066096/Cafe%20Lumiere/matchmocha_1_r2cwff.png" alt="other blogs" />
+              </div>
+              <div className='other-articles-title'>
+                <div className="blog-date">
+                  <p>07 / 22 / 2023</p>
+                </div>
+                <h5>From Espresso to Latte: A Coffee Drinker's Handbook</h5>
+              </div>
+            </div>
+            <div className="other-articles-wrapper">
+              <div className='other-articles-img'>
+                <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694066096/Cafe%20Lumiere/matchmocha_1_r2cwff.png" alt="other blogs" />
+              </div>
+              <div className='other-articles-title'>
+                <div className="blog-date">
+                  <p>07 / 22 / 2023</p>
+                </div>
+                <h5>From Espresso to Latte: A Coffee Drinker's Handbook</h5>
+              </div>
+            </div>
+            <div className="other-articles-wrapper">
+              <div className='other-articles-img'>
+                <img src="https://res.cloudinary.com/dk3aalcb0/image/upload/v1694066096/Cafe%20Lumiere/matchmocha_1_r2cwff.png" alt="other blogs" />
+              </div>
+              <div className='other-articles-title'>
+                <div className="blog-date">
+                  <p>07 / 22 / 2023</p>
+                </div>
+                <h5>From Espresso to Latte: A Coffee Drinker's Handbook</h5>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="floating-btn">
